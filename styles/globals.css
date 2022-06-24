@@ -22,3 +22,9 @@ a {
   width: 90%;
   margin: 0 auto;
 }
+
+.groupTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
