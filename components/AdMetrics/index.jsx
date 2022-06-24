@@ -51,7 +51,7 @@ const AdMetrics = () => {
               <div key={info.id} className={styles.metric}>
                 <div>
                   <Image
-                    src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656073535/CPM%20Calculators/cpc_qmo9mc.svg"
+                    src={info.src}
                     alt="Vercel Logo"
                     width={100}
                     height={100}
