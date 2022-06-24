@@ -1,9 +1,13 @@
+import styles from "../../styles/Header.module.scss";
+
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className="container">
-        <div className="logo">CPM Calculators</div>
-
+        <div className={styles.logo}>
+          {" "}
+          <span>CPM</span> Calculators
+        </div>
         <nav></nav>
       </div>
     </header>

@@ -1,0 +1,20 @@
+@use "variables";
+
+.header {
+  padding: 1rem 0;
+  border-bottom: 1px solid variables.$neutralGray;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: variables.$neutralWhite;
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: variables.$bold;
+
+    span {
+      color: variables.$primaryColor;
+    }
+  }
+}
