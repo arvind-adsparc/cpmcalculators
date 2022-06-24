@@ -1,0 +1,17 @@
+@use "variables";
+
+.ctaBar {
+  padding: 2rem 0;
+  background-color: variables.$thirdColor;
+  color: variables.$neutralWhite;
+
+  .grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}

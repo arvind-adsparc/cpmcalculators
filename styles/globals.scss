@@ -23,6 +23,7 @@ img {
   height: 100%;
 }
 
+/* container */
 .container {
   width: 90%;
   max-width: 1400px;
@@ -33,4 +34,25 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* button */
+
+.cta {
+  text-align: center;
+
+  .btn {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+  }
+
+  .green {
+    background-color: #73c9a6;
+  }
+
+  .pink {
+    background-color: #f64c71;
+  }
 }

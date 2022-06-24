@@ -1,4 +1,5 @@
 import AboutCPM from "../components/AboutCPM";
+import CTABar from "../components/CTABar";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Layout>
         <section className="page">
           <AboutCPM />
+          <CTABar />
         </section>
       </Layout>
     </>
