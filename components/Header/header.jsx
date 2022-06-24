@@ -13,8 +13,8 @@ const Header = () => {
             <Image
               src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656065276/CPM%20Calculators/nav_icon_pl11bj.svg"
               alt="Vercel Logo"
-              width={72}
-              height={16}
+              width={26}
+              height={26}
             />
 
             {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
