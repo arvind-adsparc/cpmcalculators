@@ -1,0 +1,56 @@
+@use "variables";
+
+.footer {
+  padding: 1rem 0;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: variables.$neutralWhite;
+
+  .logo {
+    font-size: 1.2rem;
+    font-weight: variables.$bold;
+    margin: 1rem 0;
+
+    span {
+      color: variables.$primaryColor;
+    }
+  }
+
+  .about {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .quickLinks {
+      margin: 1rem 0;
+
+      .linkHead {
+        font-weight: variables.$bold;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .link {
+      font-size: 0.8rem;
+      margin: 0.5rem 0;
+    }
+  }
+
+  .copyright {
+    border-top: 1px solid variables.$neutralGray;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+  }
+}
