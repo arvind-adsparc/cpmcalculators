@@ -1,7 +1,9 @@
+import Header from "../Header/header";
+
 const Layout = ({ children }) => {
   return (
     <main>
-      <header>Header content goes here</header>
+      <Header />
 
       <section className="page-content">{children}</section>
 
