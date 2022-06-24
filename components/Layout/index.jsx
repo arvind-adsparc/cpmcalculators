@@ -1,3 +1,4 @@
+import Footer from "../Footer/footer";
 import Header from "../Header/header";
 
 const Layout = ({ children }) => {
@@ -7,7 +8,7 @@ const Layout = ({ children }) => {
 
       <section className="page-content">{children}</section>
 
-      <footer>Footetr goes here</footer>
+      <Footer />
     </main>
   );
 };
