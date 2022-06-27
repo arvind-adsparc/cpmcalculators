@@ -1,4 +1,5 @@
 import styles from "../../styles/Newsletter.module.scss";
+import NewsletterForm from "../Forms/newsletter";
 
 const Newsletter = () => {
   return (
@@ -8,7 +9,9 @@ const Newsletter = () => {
           <h2>Subscribe to our newsletter & Stay Updated.</h2>
         </div>
 
-        <div></div>
+        <div>
+          <NewsletterForm />
+        </div>
       </div>
     </section>
   );
