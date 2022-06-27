@@ -1,0 +1,18 @@
+@use "variables";
+
+.ctaContainer {
+  padding: 1rem 0;
+  border-top: 1px solid variables.$neutralGray;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: variables.$neutralWhite;
+  z-index: 10;
+
+  button {
+    padding: 1rem 0;
+    width: 100%;
+    color: variables.$neutralWhite;
+  }
+}
