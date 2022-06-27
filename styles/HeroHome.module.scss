@@ -1,0 +1,40 @@
+@use "variables";
+
+.heroContainer {
+  padding: 2rem 0;
+
+  .title {
+    font-size: variables.$pageHead;
+    font-weight: variables.$bold;
+  }
+
+  .lineBreak {
+    display: block;
+  }
+
+  .lineDeco {
+    position: relative;
+    &:before {
+      content: " ";
+      background-color: #73c9a6;
+      height: 15px;
+      position: absolute;
+      top: 20px;
+      width: 120px;
+      z-index: -1;
+    }
+  }
+
+  .lineDeco {
+    position: relative;
+    &:before {
+      content: " ";
+      background-color: #73c9a6;
+      height: 15px;
+      position: absolute;
+      top: 20px;
+      width: 120px;
+      z-index: -1;
+    }
+  }
+}
