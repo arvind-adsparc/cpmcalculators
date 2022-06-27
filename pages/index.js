@@ -3,6 +3,7 @@ import AdMetrics from "../components/AdMetrics";
 import CTABar from "../components/CTABar";
 import HeroHome from "../components/Hero/Home";
 import Layout from "../components/Layout";
+import Newsletter from "../components/Newsletter";
 import Seo from "../components/Seo";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
           <AboutCPM />
           <CTABar />
           <AdMetrics />
+          <Newsletter />
         </section>
       </Layout>
     </>

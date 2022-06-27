@@ -1,0 +1,16 @@
+@use "variables";
+
+.newsletterContainer {
+  padding: 2rem 0;
+  background-color: variables.$primaryColor;
+  color: variables.$neutralWhite;
+
+  h2 {
+    // text-align: center;
+    font-weight: variables.$medium;
+    font-size: variables.$secTitleMob;
+    position: relative;
+    margin-bottom: 1rem;
+    color: inherit;
+  }
+}
