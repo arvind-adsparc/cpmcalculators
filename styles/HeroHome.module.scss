@@ -5,9 +5,40 @@
   max-width: fit-content;
   margin: 0 auto;
 
+  @media only screen and (min-width: variables.$tabMedium) {
+    max-width: initial;
+  }
+
+  .group {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    @media only screen and (min-width: variables.$tabMedium) {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+
+  .imageContainer {
+    display: none;
+
+    @media only screen and (min-width: variables.$tabMedium) {
+      display: block;
+      width: 60%;
+    }
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 40%;
+    }
+  }
+
   .title {
     font-size: variables.$pageHead;
     font-weight: variables.$bold;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$pageHeadDesk;
+    }
   }
 
   .lineBreak {
@@ -24,20 +55,10 @@
       top: 20px;
       width: 100%;
       z-index: -1;
-    }
-  }
 
-  .lineDeco {
-    position: relative;
-    &:before {
-      content: " ";
-      background-color: #73c9a6;
-      height: 15px;
-      position: absolute;
-      top: 20px;
-      width: 100%;
-
-      z-index: -1;
+      @media only screen and (min-width: variables.$desktopSmall) {
+        top: 25px;
+      }
     }
   }
 }

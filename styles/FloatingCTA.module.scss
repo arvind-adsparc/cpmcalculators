@@ -10,6 +10,10 @@
   background-color: variables.$neutralWhite;
   z-index: 10;
 
+  @media only screen and (min-width: variables.$tabSmall) {
+    display: none;
+  }
+
   button {
     padding: 1rem 0;
     width: 100%;

@@ -30,8 +30,8 @@
       width: 40%;
     }
 
-    @media only screen and (min-width: variables.$tabMedium) {
-      width: 30%;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 35%;
     }
   }
 
