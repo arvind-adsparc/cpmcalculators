@@ -4,6 +4,7 @@ import CTABar from "../components/CTABar";
 import HeroHome from "../components/Hero/Home";
 import Layout from "../components/Layout";
 import Newsletter from "../components/Newsletter";
+import RecentArticle from "../components/RecentArticle";
 import Seo from "../components/Seo";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
           <CTABar />
           <AdMetrics />
           <Newsletter />
+          <RecentArticle />
         </section>
       </Layout>
     </>

@@ -1,0 +1,33 @@
+@use "variables";
+
+.sectionContainer {
+  padding: 2rem 0;
+
+  h2 {
+    text-align: center;
+    font-weight: variables.$medium;
+    font-size: variables.$secTitleMob;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+    &:before {
+      content: " ";
+      background-color: variables.$primaryColor;
+      height: 15px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 120px;
+      z-index: -1;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
