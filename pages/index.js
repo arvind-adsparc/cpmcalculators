@@ -18,10 +18,19 @@ export default function Home() {
         <section className="page">
           <HeroHome />
           <AboutCPM />
-          <CTABar />
+          <CTABar
+            text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."
+            btnText="Get Started"
+            btnColor="pink"
+          />
           <AdMetrics />
           <Newsletter />
           <RecentArticle />
+          <CTABar
+            text="Ready to get Started?"
+            btnText="Supercharge your  CPMs"
+            btnColor="pink"
+          />
         </section>
       </Layout>
     </>
