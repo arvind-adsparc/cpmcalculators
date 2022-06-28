@@ -25,6 +25,12 @@ const HeroHome = () => {
               height={400}
               layout="responsive"
             />
+
+            <div className={styles.ctaAction}>
+              <h3>Do you want to increase your current revenue by 10x?</h3>
+
+              <button>Get Started</button>
+            </div>
           </div>
         </div>
       </div>

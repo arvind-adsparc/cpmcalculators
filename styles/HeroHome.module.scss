@@ -28,7 +28,7 @@
     }
 
     @media only screen and (min-width: variables.$desktopSmall) {
-      width: 40%;
+      width: 35%;
     }
   }
 
@@ -58,6 +58,31 @@
 
       @media only screen and (min-width: variables.$desktopSmall) {
         top: 25px;
+      }
+    }
+  }
+
+  .ctaAction {
+    display: none;
+    text-align: center;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      display: block;
+      h3 {
+        font-size: 1.1rem;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+      }
+
+      button {
+        background-color: #f64c71;
+        color: #fff;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        font-weight: variables.$medium;
+        border: none;
+        cursor: pointer;
       }
     }
   }
