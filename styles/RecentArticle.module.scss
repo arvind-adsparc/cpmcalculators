@@ -34,6 +34,11 @@
     margin: 0 auto;
     margin-top: 2rem;
 
+    @media only screen and (min-width: variables.$tabSmall) {
+      grid-template-columns: 1fr 1fr;
+      max-width: fit-content;
+    }
+
     .article {
       box-shadow: 4px 4px 25px rgb(0 0 0 / 7%);
       border-radius: 10px;

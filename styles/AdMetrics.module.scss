@@ -26,6 +26,10 @@
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 2rem;
+
+    @media only screen and (min-width: variables.$tabSmall) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
 
   .metric {
