@@ -5,6 +5,7 @@
   border: 1px solid variables.$neutralGray;
   border-radius: 10px;
   margin-top: 2rem;
+  background-color: variables.$neutralWhite;
 
   @media only screen and (min-width: variables.$desktopSmall) {
     padding: 2rem 3rem;

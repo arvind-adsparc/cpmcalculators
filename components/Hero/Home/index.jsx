@@ -34,6 +34,9 @@ const HeroHome = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.circleSmall}></div>
+      <div className={styles.circleBig}></div>
     </section>
   );
 };
