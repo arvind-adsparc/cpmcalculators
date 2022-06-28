@@ -11,11 +11,10 @@ const HeroHome = () => {
             <span className={styles.lineBreak}></span> Stay on{" "}
             <span className={styles.lineDeco}> top of monetization.</span>
           </h1>
-        </div>
-
-        <div>
           <CalculatorForm />
         </div>
+
+        <div></div>
       </div>
     </section>
   );
