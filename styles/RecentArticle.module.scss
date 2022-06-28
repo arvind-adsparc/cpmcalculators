@@ -24,10 +24,29 @@
     }
   }
 
-  .grid {
+  .articles {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 2rem;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    .article {
+      box-shadow: 4px 4px 25px rgb(0 0 0 / 7%);
+      border-radius: 10px;
+      overflow: hidden;
+
+      h3 {
+        font-weight: variables.$medium;
+      }
+    }
+
+    .text {
+      padding: 1rem;
+      font-size: 0.8rem;
+    }
   }
 }
