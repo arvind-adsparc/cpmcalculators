@@ -1,4 +1,5 @@
 import styles from "../../../styles/HeroHome.module.scss";
+import CalculatorForm from "../../Forms/calculator";
 
 const HeroHome = () => {
   return (
@@ -12,7 +13,9 @@ const HeroHome = () => {
           </h1>
         </div>
 
-        <div></div>
+        <div>
+          <CalculatorForm />
+        </div>
       </div>
     </section>
   );
