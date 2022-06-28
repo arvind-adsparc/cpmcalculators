@@ -11,6 +11,11 @@ const CalculatorForm = () => {
         <Input name="impressions" label="Impressions" type="text" />
         <Input name="cpm" label="CPM($)" type="text" />
         <Input name="cost" label="Campaign Cost($)" type="text" />
+
+        <div className={styles.ctas}>
+          <button className={styles.btn}>Calculate</button>
+          <button className={styles.btn}>Cancel</button>
+        </div>
       </div>
     </div>
   );
