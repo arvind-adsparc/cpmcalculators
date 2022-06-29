@@ -4,10 +4,13 @@
   padding: 2rem 0;
   max-width: fit-content;
   margin: 0 auto;
-  position: relative;
 
   @media only screen and (min-width: variables.$tabMedium) {
     max-width: initial;
+  }
+
+  .innerContainer {
+    position: relative;
   }
 
   .group {
@@ -98,8 +101,8 @@
       height: 150px;
       border-radius: 50%;
       z-index: -1;
-      top: -15%;
-      right: 40%;
+      top: -23%;
+      left: 55%;
       position: absolute;
     }
   }
@@ -114,8 +117,8 @@
       height: 250px;
       border-radius: 50%;
       z-index: -1;
-      bottom: -55px;
-      left: 5%;
+      left: -5%;
+      bottom: -70px;
       position: absolute;
     }
   }

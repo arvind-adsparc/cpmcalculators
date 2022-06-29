@@ -14,7 +14,7 @@ const CalculatorForm = () => {
 
         <div className={styles.ctas}>
           <button className={styles.btn}>Calculate</button>
-          <button className={styles.btn}>Cancel</button>
+          <button className={styles.btn}>Clear</button>
         </div>
       </div>
     </div>
