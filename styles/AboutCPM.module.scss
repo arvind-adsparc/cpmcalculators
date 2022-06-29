@@ -25,9 +25,12 @@
       height: 15px;
       position: absolute;
       bottom: 0;
-      left: 15px;
       width: 120px;
       z-index: -1;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        left: 15px;
+      }
     }
   }
 
@@ -69,7 +72,9 @@
   }
 
   .aboutText {
-    width: 60%;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 60%;
+    }
   }
 
   .imageDiv {

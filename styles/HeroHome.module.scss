@@ -67,7 +67,7 @@
     display: none;
     text-align: center;
 
-    @media only screen and (min-width: variables.$desktopSmall) {
+    @media only screen and (min-width: variables.$tabMedium) {
       display: block;
       h3 {
         font-size: 1.1rem;
