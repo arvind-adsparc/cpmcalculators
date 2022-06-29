@@ -58,3 +58,30 @@ img {
     color: #fff;
   }
 }
+
+// input
+
+.ant-form-item {
+  margin: initial;
+}
+.ant-input-affix-wrapper {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+
+  .ant-input {
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+
+    &:focus,
+    .ant-input-focused {
+      border-color: #fff;
+    }
+  }
+
+  ::placeholder {
+    color: #fff;
+  }
+}
