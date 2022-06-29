@@ -3,6 +3,10 @@
 .aboutCPM {
   padding: 2rem 0;
 
+  @media only screen and (min-width: variables.$desktopSmall) {
+    padding: 6rem 0;
+  }
+
   h2 {
     text-align: center;
     font-weight: variables.$medium;
@@ -10,12 +14,18 @@
     position: relative;
     margin-bottom: 1rem;
 
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secTitleDesk;
+      text-align: initial;
+    }
+
     &:before {
       content: " ";
       background-color: variables.$primaryColor;
       height: 15px;
       position: absolute;
       bottom: 0;
+      left: 15px;
       width: 120px;
       z-index: -1;
     }
@@ -33,11 +43,19 @@
     h3 {
       font-weight: variables.$medium;
       font-size: variables.$secSubTitleMob;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: variables.$secSubTitleDesk;
+      }
     }
   }
 
   .text {
-    font-size: 0.9rem;
+    font-size: variables.$secParaMob;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secParaDesk;
+    }
   }
 
   .imageDiv {
