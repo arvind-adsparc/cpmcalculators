@@ -21,5 +21,34 @@
     span {
       color: variables.$primaryColor;
     }
+
+    flex: 1;
+  }
+
+  .navMob {
+    @media only screen and (min-width: variables.$desktopSmall) {
+      display: none;
+    }
+  }
+
+  .navDesk {
+    display: none;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      display: block;
+
+      .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-weight: variables.$medium;
+
+        .link {
+          display: flex;
+          gap: 0.5rem;
+          cursor: pointer;
+          margin-left: 3rem;
+        }
+      }
+    }
   }
 }

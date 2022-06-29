@@ -27,7 +27,7 @@ const HeroHome = () => {
             />
 
             <div className={styles.ctaAction}>
-              <h3>Do you want to increase your current revenue by 10x?</h3>
+              <h3>Do you want to increase your current revenue by 30%?</h3>
 
               <button>Get Started</button>
             </div>
