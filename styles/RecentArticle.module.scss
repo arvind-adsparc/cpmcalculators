@@ -12,6 +12,10 @@
     margin: 0 auto;
     margin-bottom: 1rem;
 
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secTitleDesk;
+    }
+
     &:before {
       content: " ";
       background-color: variables.$primaryColor;
@@ -39,6 +43,11 @@
       max-width: fit-content;
     }
 
+    @media only screen and (min-width: variables.$desktopSmall) {
+      max-width: 900px;
+      gap: 10rem;
+    }
+
     .article {
       box-shadow: 4px 4px 25px rgb(0 0 0 / 7%);
       border-radius: 10px;
@@ -46,12 +55,16 @@
 
       h3 {
         font-weight: variables.$medium;
+
+        @media only screen and (min-width: variables.$desktopSmall) {
+          font-size: variables.$cardHeadDesk;
+        }
       }
     }
 
     .text {
       padding: 1rem;
-      font-size: 0.8rem;
+      font-size: variables.$secParaMob;
     }
   }
 }

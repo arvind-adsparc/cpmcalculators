@@ -62,7 +62,7 @@
 
     .text {
       @media only screen and (min-width: variables.$desktopSmall) {
-        font-size: 1rem;
+        font-size: variables.$cardHeadDesk;
         margin-top: 1.5rem;
         font-weight: variables.$medium;
       }
