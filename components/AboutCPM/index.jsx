@@ -5,19 +5,21 @@ const AboutCPM = () => {
   return (
     <section className={styles.aboutCPM}>
       <div className="container">
-        <h2>About CPM</h2>
-
         <div className={styles.grid}>
-          <div className={styles.text}>
-            An accurate calculation of CPM (Cost Per Mille) can help you
-            recognize which ads are performing well, which ads aren’t, and how
-            you can improve the outcomes. CPM has acted as an industry standard
-            that determines web ads’ advertising costs and pricing. CPM endures
-            as a vital metric for publishers! CPM calculation is simple – take
-            the total cost paid in CPM campaigns and then multiply the total
-            impressions by the CPM rate and then divide it by one thousand. We
-            will help you identify whether your CPM is above or below industry
-            standards. Click here to learn more.
+          <div className={styles.aboutText}>
+            <h2>About CPM</h2>
+
+            <div className={styles.text}>
+              An accurate calculation of CPM (Cost Per Mille) can help you
+              recognize which ads are performing well, which ads aren’t, and how
+              you can improve the outcomes. CPM has acted as an industry
+              standard that determines web ads’ advertising costs and pricing.
+              CPM endures as a vital metric for publishers! CPM calculation is
+              simple – take the total cost paid in CPM campaigns and then
+              multiply the total impressions by the CPM rate and then divide it
+              by one thousand. We will help you identify whether your CPM is
+              above or below industry standards. Click here to learn more.
+            </div>
           </div>
 
           <div className={styles.imageDiv}>
@@ -26,6 +28,7 @@ const AboutCPM = () => {
               alt="Vercel Logo"
               width={500}
               height={500}
+              layout="responsive"
             />
           </div>
         </div>
