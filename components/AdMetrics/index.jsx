@@ -49,16 +49,17 @@ const AdMetrics = () => {
           {data.map((info) => {
             return (
               <div key={info.id} className={styles.metric}>
-                <div>
+                <div className={styles.imageDiv}>
                   <Image
                     src={info.src}
                     alt="Vercel Logo"
                     width={100}
                     height={100}
+                    layout="responsive"
                   />
                 </div>
 
-                <div>{info.title}</div>
+                <div className={styles.text}>{info.title}</div>
               </div>
             );
           })}

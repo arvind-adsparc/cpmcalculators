@@ -3,12 +3,19 @@
 .adMetrics {
   padding: 2rem 0;
 
+  text-align: center;
+
   h2 {
     text-align: center;
     font-weight: variables.$medium;
     font-size: variables.$secTitleMob;
     position: relative;
     margin-bottom: 1rem;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secTitleDesk;
+      display: inline-block;
+    }
 
     &:before {
       content: " ";
@@ -18,13 +25,17 @@
       bottom: 0;
       width: 120px;
       z-index: -1;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        left: 10px;
+      }
     }
   }
 
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
+    // justify-content: center;
     gap: 2rem;
 
     @media only screen and (min-width: variables.$tabSmall) {
@@ -35,5 +46,26 @@
   .metric {
     text-align: center;
     margin: 1rem 0;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      margin: 2rem 0;
+    }
+
+    .imageDiv {
+      width: 30%;
+      margin: 0 auto;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        width: 40%;
+      }
+    }
+
+    .text {
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        font-weight: variables.$medium;
+      }
+    }
   }
 }
