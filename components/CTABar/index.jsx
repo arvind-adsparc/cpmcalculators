@@ -1,5 +1,4 @@
 import styles from "../../styles/CTABar.module.scss";
-import Button from "../Button/button";
 
 const CTABar = ({ text, btnText, btnColor }) => {
   return (
@@ -8,7 +7,9 @@ const CTABar = ({ text, btnText, btnColor }) => {
         <div className={styles.grid}>
           <div className={styles.text}>{text}</div>
 
-          <Button text={btnText} color={btnColor} />
+          <div className={styles.cta}>
+            <button className={styles.btn}>{btnText}</button>
+          </div>
         </div>
       </div>
     </section>

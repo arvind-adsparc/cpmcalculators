@@ -5,13 +5,52 @@
   background-color: variables.$thirdColor;
   color: variables.$neutralWhite;
 
+  @media only screen and (min-width: variables.$desktopSmall) {
+    padding: 4rem 0;
+  }
+
   .grid {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
   }
 
   .text {
     font-size: 0.9rem;
     text-align: center;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 45%;
+      text-align: initial;
+      font-size: 1.2rem;
+      font-weight: variables.$medium;
+    }
+  }
+
+  .cta {
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: fit-content;
+    }
+    .btn {
+      background-color: #f64c71;
+      color: #fff;
+      padding: 0.8rem 2rem;
+      border-radius: 5px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        width: 100%;
+
+        padding: 1rem 3.2rem;
+      }
+    }
   }
 }
