@@ -15,6 +15,7 @@ const Header = () => {
               alt="Vercel Logo"
               width={26}
               height={26}
+              priority={true}
             />
 
             {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
