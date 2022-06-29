@@ -11,8 +11,12 @@
   z-index: 10;
 
   .logo {
-    font-size: 1.2rem;
+    font-size: variables.$logo;
     font-weight: variables.$bold;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$logoDesk;
+    }
 
     span {
       color: variables.$primaryColor;

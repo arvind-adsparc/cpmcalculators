@@ -10,9 +10,13 @@
   background-color: variables.$neutralWhite;
 
   .logo {
-    font-size: 1.2rem;
+    font-size: variables.$logo;
     font-weight: variables.$bold;
     margin: 1rem 0;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$logoDesk;
+    }
 
     span {
       color: variables.$primaryColor;
@@ -22,6 +26,10 @@
   .about {
     font-size: 0.8rem;
     margin-bottom: 1rem;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: 1rem;
+    }
   }
 
   .links {
@@ -34,6 +42,10 @@
 
       .linkHead {
         font-weight: variables.$bold;
+
+        @media only screen and (min-width: variables.$desktopSmall) {
+          font-size: 1rem;
+        }
       }
 
       .grid {
@@ -45,6 +57,10 @@
     .link {
       font-size: 0.8rem;
       margin: 0.5rem 0;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: 1rem;
+      }
     }
   }
 
@@ -53,5 +69,9 @@
     text-align: center;
     padding: 1rem 0;
     font-size: 0.8rem;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: 0.9rem;
+    }
   }
 }
