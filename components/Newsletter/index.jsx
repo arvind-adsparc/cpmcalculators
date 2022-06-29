@@ -7,7 +7,7 @@ const Newsletter = () => {
     <section className={styles.newsletterContainer}>
       <div className="container">
         <div className={styles.grid}>
-          <div>
+          <div className={styles.formContainer}>
             <h2>Subscribe to our newsletter & Stay Updated.</h2>
             <NewsletterForm />
           </div>

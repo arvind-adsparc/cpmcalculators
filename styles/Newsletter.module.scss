@@ -12,6 +12,11 @@
     position: relative;
     margin-bottom: 1rem;
     color: inherit;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secTitleDesk;
+      // width: 65%;
+    }
   }
 
   .ant-input {
@@ -20,6 +25,12 @@
 
   button {
     width: 100%;
+  }
+
+  .formContainer {
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 30%;
+    }
   }
 
   .imageContainer {
@@ -31,7 +42,7 @@
     }
 
     @media only screen and (min-width: variables.$desktopSmall) {
-      width: 35%;
+      width: 30%;
     }
   }
 
