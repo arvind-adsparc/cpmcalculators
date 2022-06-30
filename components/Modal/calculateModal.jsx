@@ -28,6 +28,8 @@ const CalculateModal = ({ openModal, closeModal }) => {
             be $—---.
           </div>
         </div>
+
+        <div className={styles.modalForm}></div>
       </div>
     </Modal>
   );
