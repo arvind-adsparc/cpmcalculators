@@ -1,13 +1,48 @@
 import { useState } from "react";
 import styles from "../../../styles/CalculatorForm.module.scss";
+import { validateFn } from "../../../utilis/cpmCalValidation";
 import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
 
 const CalculatorForm = () => {
   const [openModal, setOpenModal] = useState(false);
 
+  const [impressions, setImpressions] = useState("");
+  const [cpm, setCPM] = useState("");
+  const [campaignCost, setCampaignCost] = useState("");
+
   const closeModal = () => {
     setOpenModal(false);
+  };
+
+  const getValues = (data) => {
+    console.log(data);
+
+    switch (data.name) {
+      case "impressions":
+        setImpressions(data.value);
+        break;
+      case "cpm":
+        setCPM(data.value);
+        break;
+      case "campaignCost":
+        setCampaignCost(data.value);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const onCalculate = () => {
+    const success = validateFn(impressions, cpm, campaignCost);
+
+    if (success) {
+      setOpenModal(true);
+
+      console.log({ impressions, cpm, campaignCost });
+    } else {
+      setOpenModal(false);
+    }
   };
   return (
     <div className={styles.formContainer}>
@@ -18,30 +53,27 @@ const CalculatorForm = () => {
         <Input
           name="impressions"
           label="Impressions"
-          type="text"
+          type="number"
           placeholder={"This is how many times the ad is viewed on a website"}
+          getValuesFn={getValues}
         />
         <Input
           name="cpm"
           label="CPM($)"
-          type="text"
+          type="number"
           placeholder={"Cost per thousand impressions in one ad unit"}
+          getValuesFn={getValues}
         />
         <Input
-          name="cost"
+          name="campaignCost"
           label="Campaign Cost($)"
-          type="text"
+          type="number"
           placeholder={"Total budget for the campaign"}
+          getValuesFn={getValues}
         />
 
         <div className={styles.ctas}>
-          <button
-            onClick={() => {
-              console.log("getting this far");
-              setOpenModal(true);
-            }}
-            className={styles.btn}
-          >
+          <button onClick={onCalculate} className={styles.btn}>
             Calculate
           </button>
           <button className={styles.btn}>Clear</button>
