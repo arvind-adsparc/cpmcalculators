@@ -21,10 +21,11 @@ const HeroHome = () => {
             <div className={styles.imageContainer}>
               <Image
                 src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656426401/CPM%20Calculators/hero-image_ndouct.svg"
-                alt="Vercel Logo"
+                alt="CPM Calculators"
                 width={400}
                 height={400}
                 layout="responsive"
+                priority
               />
 
               <div className={styles.ctaAction}>

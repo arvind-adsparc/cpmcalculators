@@ -1,0 +1,32 @@
+@use "variables";
+
+.modalContent {
+  .modalResult {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      padding: 4rem 2rem;
+    }
+
+    .imageContainer {
+      display: none;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        display: block;
+        width: 45%;
+      }
+    }
+
+    .calculation {
+      font-size: variables.$resultMob;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: variables.$resultDesk;
+        width: 50%;
+      }
+    }
+  }
+}

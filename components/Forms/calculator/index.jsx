@@ -1,7 +1,14 @@
+import { useState } from "react";
 import styles from "../../../styles/CalculatorForm.module.scss";
 import Input from "../../Input/input";
+import CalculateModal from "../../Modal/calculateModal";
 
 const CalculatorForm = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const closeModal = () => {
+    setOpenModal(false);
+  };
   return (
     <div className={styles.formContainer}>
       <h3>CPM Calculator</h3>
@@ -13,9 +20,19 @@ const CalculatorForm = () => {
         <Input name="cost" label="Campaign Cost($)" type="text" />
 
         <div className={styles.ctas}>
-          <button className={styles.btn}>Calculate</button>
+          <button
+            onClick={() => {
+              console.log("getting this far");
+              setOpenModal(true);
+            }}
+            className={styles.btn}
+          >
+            Calculate
+          </button>
           <button className={styles.btn}>Clear</button>
         </div>
+
+        <CalculateModal openModal={openModal} closeModal={closeModal} />
       </div>
     </div>
   );
