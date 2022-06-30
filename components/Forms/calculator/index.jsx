@@ -15,9 +15,24 @@ const CalculatorForm = () => {
       <p>Complete two fields and we will calculate the third one for you</p>
 
       <div>
-        <Input name="impressions" label="Impressions" type="text" />
-        <Input name="cpm" label="CPM($)" type="text" />
-        <Input name="cost" label="Campaign Cost($)" type="text" />
+        <Input
+          name="impressions"
+          label="Impressions"
+          type="text"
+          placeholder={"This is how many times the ad is viewed on a website"}
+        />
+        <Input
+          name="cpm"
+          label="CPM($)"
+          type="text"
+          placeholder={"Cost per thousand impressions in one ad unit"}
+        />
+        <Input
+          name="cost"
+          label="Campaign Cost($)"
+          type="text"
+          placeholder={"Total budget for the campaign"}
+        />
 
         <div className={styles.ctas}>
           <button

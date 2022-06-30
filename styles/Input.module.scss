@@ -15,5 +15,10 @@
     outline: none;
     font-weight: variables.$regular;
     border-radius: 5px;
+
+    &::placeholder {
+      font-size: small;
+      color: #ccc;
+    }
   }
 }
