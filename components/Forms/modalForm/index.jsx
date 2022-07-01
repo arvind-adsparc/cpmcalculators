@@ -35,7 +35,7 @@ const ModalForm = () => {
 
       <Form
         form={form}
-        name="newsletter-form"
+        name="modal-form"
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
       >
