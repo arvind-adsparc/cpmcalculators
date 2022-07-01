@@ -67,8 +67,8 @@ img {
 .ant-input-affix-wrapper {
   background-color: transparent;
   border: 1px solid #fff;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
+  // padding: 0.5rem 1rem;
+  // margin-bottom: 1rem;
 
   .ant-input {
     background-color: transparent;
@@ -82,8 +82,27 @@ img {
   }
 
   ::placeholder {
+    // color: #fff;
+    font-size: 0.7rem;
+  }
+}
+
+.ant-select-selector {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+
+  .ant-select-selection-item {
     color: #fff;
   }
+
+  .ant-select-selection-placeholder {
+    // color: #fff;
+    font-size: 0.7rem;
+  }
+}
+
+.ant-select-arrow {
+  color: #fff;
 }
 
 // modal
@@ -114,6 +133,7 @@ img {
 
 // form
 .ant-form-item-explain-error {
+  margin-top: 0.5rem;
   @media only screen and (max-width: 650px) {
     font-size: 0.8rem;
   }

@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { Form, Input, Spin } from "antd";
+import { Form, Input, Select, Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import styles from "../../../styles/modalForm.module.scss";
+
+const { Option } = Select;
 
 const antIcon = (
   <LoadingOutlined
@@ -83,6 +85,25 @@ const ModalForm = () => {
             validateStatus={status}
           >
             <Input placeholder="Company Name" />
+          </Form.Item>
+
+          <Form.Item
+            name="views"
+            rules={[
+              {
+                required: true,
+                message: "Please select an option!",
+              },
+            ]}
+            hasFeedback
+            validateStatus={status}
+          >
+            <Select placeholder="Monthly Pages View">
+              <Option value="less than 1 million">less than 1 million</Option>
+              <Option value="1 - 5 million">1 - 5 million</Option>
+              <Option value="5 - 20 million">5 - 20 million</Option>
+              <Option value="20 million+">20 million+</Option>
+            </Select>
           </Form.Item>
         </div>
 
