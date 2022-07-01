@@ -43,6 +43,7 @@ const CalculatorForm = () => {
     } else {
       setOpenModal(false);
     }
+    setOpenModal(true); // for testing
   };
   return (
     <div className={styles.formContainer}>

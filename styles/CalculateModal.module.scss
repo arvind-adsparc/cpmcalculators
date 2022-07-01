@@ -3,6 +3,7 @@
 .modalContent {
   display: flex;
   flex-direction: column;
+  height: 100%;
 
   .modalResult {
     display: flex;
@@ -37,5 +38,6 @@
     // width: 50%;
     background-color: variables.$thirdColor;
     color: variables.$neutralWhite;
+    flex: 1;
   }
 }

@@ -97,6 +97,10 @@ img {
 
 .ant-modal-body {
   padding: initial;
+
+  @media only screen and (max-width: 650px) {
+    height: 100%;
+  }
 }
 
 .ant-modal-content {
@@ -106,4 +110,11 @@ img {
 }
 .ant-modal-footer {
   display: none;
+}
+
+// form
+.ant-form-item-explain-error {
+  @media only screen and (max-width: 650px) {
+    font-size: 0.8rem;
+  }
 }

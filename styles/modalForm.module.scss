@@ -1,0 +1,33 @@
+@use "variables";
+
+.modalForm {
+  padding: 2rem 1rem;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 700px;
+
+  .formHead {
+    font-size: variables.$secSubTitleMob;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secSubTitleDesk;
+    }
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      flex-direction: row;
+
+      > div {
+        width: 100%;
+      }
+    }
+  }
+}
