@@ -1,6 +1,6 @@
 import { Modal } from "antd";
-import Image from "next/image";
 import styles from "../../styles/CalculateModal.module.scss";
+import ModalForm from "../Forms/modalForm";
 
 const CalculateModal = ({ openModal, closeModal }) => {
   return (
@@ -29,7 +29,9 @@ const CalculateModal = ({ openModal, closeModal }) => {
           </div>
         </div>
 
-        <div className={styles.modalForm}></div>
+        <div className={styles.modalForm}>
+          <ModalForm />
+        </div>
       </div>
     </Modal>
   );
