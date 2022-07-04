@@ -47,6 +47,12 @@ const CalculatorForm = () => {
     }
     // setOpenModal(true); // for testing
   };
+
+  const onClear = () => {
+    setImpressions("");
+    setCPM("");
+    setCampaignCost("");
+  };
   return (
     <div className={styles.formContainer}>
       <h3>CPM Calculator</h3>
@@ -59,6 +65,7 @@ const CalculatorForm = () => {
           name="impressions"
           label="Impressions"
           type="number"
+          valueField={impressions}
           placeholder={"This is how many times the ad is viewed on a website"}
           getValuesFn={getValues}
         />
@@ -66,6 +73,7 @@ const CalculatorForm = () => {
           name="cpm"
           label="CPM($)"
           type="number"
+          valueField={cpm}
           placeholder={"Cost per thousand impressions in one ad unit"}
           getValuesFn={getValues}
         />
@@ -73,6 +81,7 @@ const CalculatorForm = () => {
           name="campaignCost"
           label="Campaign Cost($)"
           type="number"
+          valueField={campaignCost}
           placeholder={"Total budget for the campaign"}
           getValuesFn={getValues}
         />
@@ -81,7 +90,9 @@ const CalculatorForm = () => {
           <button onClick={onCalculate} className={styles.btn}>
             Calculate
           </button>
-          <button className={styles.btn}>Clear</button>
+          <button onClick={onClear} className={styles.btn}>
+            Clear
+          </button>
         </div>
 
         <CalculateModal

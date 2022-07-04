@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../../styles/Input.module.scss";
 
-const Input = ({ name, label, type, placeholder, getValuesFn }) => {
+const Input = ({ name, label, type, valueField, placeholder, getValuesFn }) => {
   const [value, setValue] = useState("");
 
   const handleChange = (event) => {
@@ -18,7 +18,7 @@ const Input = ({ name, label, type, placeholder, getValuesFn }) => {
       <label htmlFor={name}>{label}:</label>
 
       <input
-        value={value}
+        value={valueField}
         onChange={handleChange}
         type={type}
         id={name}
