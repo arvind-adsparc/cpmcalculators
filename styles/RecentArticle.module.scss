@@ -48,8 +48,10 @@
     }
 
     @media only screen and (min-width: variables.$desktopSmall) {
-      max-width: 900px;
-      gap: 10rem;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      max-width: 1200px;
+      gap: 2rem;
     }
 
     .article {
