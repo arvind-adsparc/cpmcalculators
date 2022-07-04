@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Dropdown } from "antd";
+import MenuOne from "./Menu/menuOne";
+import MenuTwo from "./Menu/menuTwo";
 import styles from "../../styles/Header.module.scss";
 
 const Header = () => {
@@ -29,14 +32,20 @@ const Header = () => {
 
         <nav className={styles.navDesk}>
           <div className={styles.links}>
-            <div className={styles.link}>
-              <div>Calculators</div>
-              <Image src="/navArrow.svg" alt="" width={10} height={10} />
-            </div>
-            <div className={styles.link}>
-              <div>Ad Metrics</div>
-              <Image src="/navArrow.svg" alt="" width={10} height={10} />
-            </div>
+            <Dropdown overlay={MenuOne} placement="bottomRight" arrow>
+              <div className={styles.link}>
+                Calculators{" "}
+                <Image src="/navArrow.svg" alt="" width={10} height={10} />
+              </div>
+            </Dropdown>
+
+            <Dropdown overlay={MenuTwo} placement="bottomRight" arrow>
+              <div className={styles.link}>
+                Ad Metrics{" "}
+                <Image src="/navArrow.svg" alt="" width={10} height={10} />
+              </div>
+            </Dropdown>
+
             <div className={styles.link}>Improve Revenue</div>
           </div>
 

@@ -51,6 +51,7 @@ img {
     border-radius: 5px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
   }
 
   .green {
@@ -149,7 +150,7 @@ img {
 
 // form
 .ant-form-item-explain-error {
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
   @media only screen and (max-width: 650px) {
     font-size: 0.8rem;
   }
