@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/Header.module.scss";
 
 const Header = () => {
@@ -6,7 +7,11 @@ const Header = () => {
     <header className={styles.header}>
       <div className="container groupTwo">
         <div className={styles.logo}>
-          <span>CPM</span> Calculators
+          <Link href="/">
+            <a>
+              <span>CPM</span> Calculators
+            </a>
+          </Link>
         </div>
         <nav className={styles.navMob}>
           <div className="nav-icon">

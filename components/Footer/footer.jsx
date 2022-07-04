@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../../styles/Footer.module.scss";
 
 const Footer = () => {
@@ -6,7 +7,11 @@ const Footer = () => {
       <div className="container">
         <div className="aboutCPM">
           <div className={styles.logo}>
-            <span>CPM</span> Calculators
+            <Link href="/">
+              <a>
+                <span>CPM</span> Calculators
+              </a>
+            </Link>
           </div>
 
           <div className={styles.about}>

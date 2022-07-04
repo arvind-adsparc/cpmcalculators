@@ -6,9 +6,7 @@ const Layout = ({ children }) => {
   return (
     <main>
       <Header />
-
       <section className="page-content">{children}</section>
-
       <Footer />
       <FloatingCTA />
     </main>
