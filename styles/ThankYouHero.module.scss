@@ -1,0 +1,37 @@
+@use "variables";
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5rem 0;
+
+  @media only screen and (min-width: variables.$desktopSmall) {
+    height: 100vh;
+  }
+
+  .imageContainer {
+    width: 70%;
+    margin-bottom: 1rem;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      width: 25%;
+    }
+  }
+
+  h2 {
+    font-weight: variables.$bold;
+    font-size: variables.$secTitleMob;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secTitleDesk;
+    }
+  }
+
+  p {
+    font-weight: variables.$medium;
+    font-size: variables.$secSubTitleMob;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$secSubTitleDesk;
+    }
+  }
+}
