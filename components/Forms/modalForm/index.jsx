@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Router from "next/router";
 import { Form, Input, Select, Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import styles from "../../../styles/modalForm.module.scss";
@@ -21,7 +22,7 @@ const ModalForm = () => {
   const [status, setStatus] = useState("");
 
   const onFinish = (errorInfo) => {
-    console.log("Failed:", errorInfo);
+    Router.push("/thank-you");
   };
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
@@ -74,7 +75,7 @@ const ModalForm = () => {
         <div className={styles.group}>
           <Form.Item
             className="input-container"
-            name="fullname"
+            name="companyName"
             rules={[
               {
                 required: true,
