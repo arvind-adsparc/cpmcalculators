@@ -4,24 +4,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
 
   padding: 5rem 0;
+  position: relative;
 
   @media only screen and (min-width: variables.$desktopSmall) {
     height: 100vh;
   }
 
   .imageContainer {
-    width: 70%;
+    width: 15rem;
     margin-bottom: 1rem;
     @media only screen and (min-width: variables.$desktopSmall) {
-      width: 25%;
+      width: 20rem;
     }
   }
 
   h2 {
     font-weight: variables.$bold;
     font-size: variables.$secTitleMob;
+    position: relative;
+
+    &:before {
+      content: " ";
+      background-color: variables.$primaryColor;
+      height: 15px;
+      position: absolute;
+      bottom: 0;
+      width: 200px;
+      z-index: -1;
+      left: -10px;
+    }
     @media only screen and (min-width: variables.$desktopSmall) {
       font-size: variables.$secTitleDesk;
     }
@@ -30,6 +46,18 @@
   p {
     font-weight: variables.$medium;
     font-size: variables.$secSubTitleMob;
+    position: relative;
+
+    &:before {
+      content: " ";
+      background-color: variables.$primaryColor;
+      height: 15px;
+      position: absolute;
+      bottom: 0;
+      width: 150px;
+      z-index: -1;
+      right: 10px;
+    }
     @media only screen and (min-width: variables.$desktopSmall) {
       font-size: variables.$secSubTitleDesk;
     }
