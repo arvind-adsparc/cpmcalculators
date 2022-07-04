@@ -1,8 +1,9 @@
 import { useState } from "react";
-import styles from "../../../styles/CalculatorForm.module.scss";
+import { Alert } from "antd";
 import { validateFn } from "../../../utilis/cpmCalValidation";
 import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
+import styles from "../../../styles/CalculatorForm.module.scss";
 
 const CalculatorForm = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -10,6 +11,7 @@ const CalculatorForm = () => {
   const [impressions, setImpressions] = useState("");
   const [cpm, setCPM] = useState("");
   const [campaignCost, setCampaignCost] = useState("");
+  const [error, setError] = useState("");
 
   const closeModal = () => {
     setOpenModal(false);
@@ -34,21 +36,23 @@ const CalculatorForm = () => {
   };
 
   const onCalculate = () => {
-    const success = validateFn(impressions, cpm, campaignCost);
+    const result = validateFn(impressions, cpm, campaignCost);
 
-    if (success) {
+    if (result.status) {
       setOpenModal(true);
-
-      console.log({ impressions, cpm, campaignCost });
+      setError(false);
     } else {
+      setError(result.message);
       setOpenModal(false);
     }
-    setOpenModal(true); // for testing
+    // setOpenModal(true); // for testing
   };
   return (
     <div className={styles.formContainer}>
       <h3>CPM Calculator</h3>
       <p>Complete two fields and we will calculate the third one for you</p>
+
+      {error && <Alert message={error} type="error" />}
 
       <div>
         <Input
