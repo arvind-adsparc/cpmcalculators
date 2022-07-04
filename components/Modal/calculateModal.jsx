@@ -2,7 +2,7 @@ import { Modal } from "antd";
 import styles from "../../styles/CalculateModal.module.scss";
 import ModalForm from "../Forms/modalForm";
 
-const CalculateModal = ({ openModal, closeModal }) => {
+const CalculateModal = ({ calculation, openModal, closeModal }) => {
   return (
     <Modal
       title=""
@@ -23,10 +23,7 @@ const CalculateModal = ({ openModal, closeModal }) => {
             />
           </div>
 
-          <div className={styles.calculation}>
-            On —--- Impressions if the CPM is $—--- then the Campaign Cost would
-            be $—---.
-          </div>
+          <div className={styles.calculation}>{calculation}</div>
         </div>
 
         <div className={styles.modalForm}>

@@ -12,14 +12,13 @@ const CalculatorForm = () => {
   const [cpm, setCPM] = useState("");
   const [campaignCost, setCampaignCost] = useState("");
   const [error, setError] = useState("");
+  const [calculation, setCalculation] = useState("");
 
   const closeModal = () => {
     setOpenModal(false);
   };
 
   const getValues = (data) => {
-    console.log(data);
-
     switch (data.name) {
       case "impressions":
         setImpressions(data.value);
@@ -41,6 +40,7 @@ const CalculatorForm = () => {
     if (result.status) {
       setOpenModal(true);
       setError(false);
+      setCalculation(result.message);
     } else {
       setError(result.message);
       setOpenModal(false);
@@ -84,7 +84,11 @@ const CalculatorForm = () => {
           <button className={styles.btn}>Clear</button>
         </div>
 
-        <CalculateModal openModal={openModal} closeModal={closeModal} />
+        <CalculateModal
+          calculation={calculation}
+          openModal={openModal}
+          closeModal={closeModal}
+        />
       </div>
     </div>
   );

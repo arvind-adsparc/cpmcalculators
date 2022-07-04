@@ -19,8 +19,21 @@ export const validateFn = (impressions, cpm, campaignCost) => {
     };
   }
 
+  const getResult = () => {
+    if (impressions === "") {
+      let totalimpressions = (campaignCost / cpm) * 1000;
+      return `On $${campaignCost} campaign cost if the cpm is $${cpm}  then the total impressions would be ${totalimpressions} .`;
+    } else if (cpm === "") {
+      let totalcpm = (campaignCost / impressions) * 1000;
+      return `On $${campaignCost} campaign cost if the impressions are ${impressions}  then the total CPM would be $${totalcpm} .`;
+    } else if (campaignCost === "") {
+      let totalcampaigncost = (cpm * impressions) / 1000;
+      return `On ${impressions} impressions if the CPM is $${cpm}  then the campaign cost would be $${totalcampaigncost} .`;
+    }
+  };
+
   return {
     status: true,
-    message: "",
+    message: getResult(),
   };
 };
