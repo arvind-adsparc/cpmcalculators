@@ -18,13 +18,7 @@ const BlogPage = ({
           <h2 className={styles.title}>{title}</h2>
 
           <div className={styles.imageDiv}>
-            <Image
-              src={cover_image}
-              alt={title}
-              width={100}
-              height={65}
-              layout="responsive"
-            />
+            <Image src={cover_image} alt={title} width={900} height={500} />
           </div>
 
           <div className={styles.group}>

@@ -1,10 +1,10 @@
 ---
-id: "4"
-title: "What is CPM"
+id: "5"
+title: "What is Ad Metrics"
 date: "September 23, 2021"
-excerpt: "CPM is one of the most significant advertising metrics. CPM means cost per mille, i.e. the cost per thousand impressions. Simply it means the cost..."
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
+excerpt: "Do you know the best ad metrics to calculate ad revenue and improve publisher earnings? Are you aware of metrics that can evaluate ad revenue..."
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657016163/CPM%20Calculators/eCPM-admetrics-1_aitdv7.jpg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657016163/CPM%20Calculators/eCPM-admetrics-1_aitdv7.jpg"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
