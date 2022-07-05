@@ -6,4 +6,34 @@
   .group {
     display: flex;
   }
+
+  .title {
+    font-size: variables.$blogHeadMob;
+    font-weight: variables.$medium;
+    line-height: 30px;
+    margin: initial;
+    color: variables.$primaryColor;
+  }
+
+  .imageDiv {
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+  .content {
+    h3 {
+      font-size: variables.$blogH3Mob;
+      font-weight: variables.$medium;
+      line-height: 30px;
+    }
+
+    h4 {
+      font-size: variables.$blogH4Mob;
+      font-weight: variables.$medium;
+    }
+
+    p {
+      font-size: variables.$blogParaMob;
+    }
+  }
 }

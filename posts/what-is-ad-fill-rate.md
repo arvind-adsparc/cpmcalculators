@@ -7,8 +7,6 @@ src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656409762/CPM%20Calcul
 cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656409762/CPM%20Calculators/Ad-Fill-Rate_fpmgvq.jpg"
 ---
 
-## What is Ad Fill Rate?
-
 ### Introduction
 
 Modern-day websites are attractive digital constructs that relay pertinent information to the visitors while maximizing their user experience. The primary objective of any website is to increase traffic and page ranking.

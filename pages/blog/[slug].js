@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Image from "next/image";
 import Layout from "../../components/Layout";
 import styles from "../../styles/BlogPage.module.scss";
 
@@ -14,8 +15,20 @@ const BlogPage = ({
     <Layout>
       <div className={styles.blogContainer}>
         <div className="container">
+          <h2 className={styles.title}>{title}</h2>
+
+          <div className={styles.imageDiv}>
+            <Image
+              src={cover_image}
+              alt={title}
+              width={100}
+              height={65}
+              layout="responsive"
+            />
+          </div>
+
           <div className={styles.group}>
-            <div className="content">
+            <div className={styles.content}>
               <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
             </div>
             <div className="sidebar"></div>
