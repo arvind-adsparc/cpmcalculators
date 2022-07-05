@@ -2,7 +2,7 @@
 title: "What is Ad Fill Rate?"
 date: "July 5, 2022"
 excerpt: "Introduction Modern-day websites are attractive digital constructs that relay pertinent information to the visitors while maximizing their user experience. The primary objective…"
-# cover_image: '/images/posts/img3.jpg'
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656409762/CPM%20Calculators/Ad-Fill-Rate_fpmgvq.jpg"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

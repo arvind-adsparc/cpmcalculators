@@ -1,0 +1,20 @@
+@use "variables";
+
+.post {
+  box-shadow: 4px 4px 25px rgb(0 0 0 / 7%);
+  border-radius: 10px;
+  overflow: hidden;
+
+  h3 {
+    font-weight: variables.$medium;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$cardHeadDesk;
+    }
+  }
+
+  .text {
+    padding: 1rem;
+    font-size: variables.$secParaMob;
+  }
+}

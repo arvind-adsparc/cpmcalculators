@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import styles from "../../styles/RecentArticle.module.scss";
+import Post from "../Post/post";
 
 const data = [
   {
@@ -30,26 +31,9 @@ const RecentArticle = () => {
         <h2>Recent Articles</h2>
 
         <div className={styles.articles}>
-          {data.map((info) => {
-            return (
-              <div key={info.id} className={styles.article}>
-                <div>
-                  <Image
-                    src={info.src}
-                    alt=""
-                    layout="responsive"
-                    width={100}
-                    height={50}
-                  />
-                </div>
-                <div className={styles.text}>
-                  <h3>{info.title}</h3>
-
-                  <p>{info.para}</p>
-                </div>
-              </div>
-            );
-          })}
+          {data.map((info) => (
+            <Post key={info.id} {...info} />
+          ))}
         </div>
       </div>
     </section>
