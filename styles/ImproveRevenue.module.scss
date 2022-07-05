@@ -2,9 +2,25 @@
 
 .improveRevenue {
   padding: 2rem 0;
+  padding-top: initial;
 
   @media only screen and (min-width: variables.$desktopSmall) {
     padding: 4rem 0;
+    padding-top: initial;
+  }
+
+  .title {
+    font-size: variables.$blogPageTitleMob;
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: variables.$medium;
+    background-color: variables.$thirdColor;
+    color: variables.$neutralWhite;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$blogPageTitle;
+      padding: 4rem 0;
+    }
   }
 
   .posts {
@@ -12,6 +28,7 @@
     grid-template-columns: 1fr;
     gap: 2rem;
     margin: 0 auto;
+    margin-top: 3rem;
 
     @media only screen and (min-width: variables.$tabSmall) {
       grid-template-columns: 1fr 1fr;

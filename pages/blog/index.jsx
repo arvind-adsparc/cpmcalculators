@@ -14,6 +14,7 @@ const ImproveRevenue = ({ posts }) => {
 
       <Layout>
         <section className={styles.improveRevenue}>
+          <h1 className={styles.title}>Improve Revenue</h1>
           <div className="container">
             <div className={styles.posts}>
               {posts.map((post) => (
