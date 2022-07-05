@@ -1,6 +1,7 @@
 ---
 id: "2"
 title: "What is CPV?"
+tag: "Ad Metrics"
 date: "November 10, 2021"
 excerpt: "Introduction Online advertising is a dynamic part of the digital world. Advertising comes in many shapes and forms yet always has to be visually appealing."
 src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656409745/CPM%20Calculators/What-is-CPV_klbbkh.jpg"

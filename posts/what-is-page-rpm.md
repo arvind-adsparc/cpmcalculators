@@ -1,6 +1,7 @@
 ---
 id: "6"
 title: "What is Page RPM"
+tag: "Blog"
 date: "September 23, 2021"
 excerpt: "The Page RPM metric supports publishers to recognize the actual performance of their ads on a page level. This way, a publisher can identify low-earning pages and..."
 src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657016363/CPM%20Calculators/RPM_uuu8hm.jpg"
