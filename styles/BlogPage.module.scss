@@ -13,11 +13,20 @@
     line-height: 30px;
     margin: initial;
     color: variables.$primaryColor;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      font-size: variables.$blogHead;
+    }
   }
 
   .imageDiv {
     margin: 2rem 0;
     width: 100%;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      // width: 100%;
+      // height: 20%;
+    }
   }
 
   .content {
@@ -25,15 +34,27 @@
       font-size: variables.$blogH3Mob;
       font-weight: variables.$medium;
       line-height: 30px;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: variables.$blogH3;
+      }
     }
 
     h4 {
       font-size: variables.$blogH4Mob;
       font-weight: variables.$medium;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: variables.$blogH4;
+      }
     }
 
     p {
       font-size: variables.$blogParaMob;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: variables.$blogPara;
+      }
     }
   }
 }
