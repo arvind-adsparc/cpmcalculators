@@ -1,7 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import styles from "../../styles/Post.module.scss";
 
-const Post = ({ src, title, excerpt }) => {
+const Post = ({ src, title, excerpt, slug }) => {
   return (
     <div className={styles.post}>
       <div>
@@ -12,6 +14,10 @@ const Post = ({ src, title, excerpt }) => {
         <h3>{title}</h3>
 
         <p>{excerpt}</p>
+
+        <Link href={`/blog/${slug}`}>
+          <a>Read More</a>
+        </Link>
       </div>
     </div>
   );

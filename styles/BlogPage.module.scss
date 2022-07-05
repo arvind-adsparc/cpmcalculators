@@ -1,0 +1,9 @@
+@use "variables";
+
+.blogContainer {
+  padding: 2rem 0;
+
+  .group {
+    display: flex;
+  }
+}

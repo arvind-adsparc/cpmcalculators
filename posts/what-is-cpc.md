@@ -1,5 +1,5 @@
 ---
-id: "1"
+id: "3"
 title: "What is CPC?"
 date: "November 10, 2021"
 excerpt: "Introduction Advertising is a prominent part of Digital Marketing. Whether you’re running your website or trying to increase your outreach on a social media platform..."

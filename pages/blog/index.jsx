@@ -18,7 +18,11 @@ const ImproveRevenue = ({ posts }) => {
           <div className="container">
             <div className={styles.posts}>
               {posts.map((post) => (
-                <Post key={post.frontmatter.id} {...post.frontmatter} />
+                <Post
+                  key={post.frontmatter.id}
+                  {...post.frontmatter}
+                  slug={post.slug}
+                />
               ))}
             </div>
           </div>
