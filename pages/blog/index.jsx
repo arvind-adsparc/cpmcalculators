@@ -4,6 +4,8 @@ import matter from "gray-matter";
 import Seo from "../../components/Seo";
 import Layout from "../../components/Layout";
 import sortBydate from "../../utilis/sortBydate";
+import Post from "../../components/Post/post";
+import styles from "../../styles/ImproveRevenue.module.scss";
 
 const ImproveRevenue = ({ posts }) => {
   console.log("posts", posts);
@@ -11,7 +13,17 @@ const ImproveRevenue = ({ posts }) => {
     <>
       <Seo title="Improve Revenue | CPM Calculators" description="" />
 
-      <Layout></Layout>
+      <Layout>
+        <section className={styles.improveRevenue}>
+          <div className="container">
+            <div className={styles.posts}>
+              {posts.map((post) => (
+                <Post key={post.frontmatter.id} {...post.frontmatter} />
+              ))}
+            </div>
+          </div>
+        </section>
+      </Layout>
     </>
   );
 };

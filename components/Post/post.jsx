@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/Post.module.scss";
 
-const Post = ({ src, title, para }) => {
+const Post = ({ src, title, excerpt }) => {
   return (
     <div className={styles.post}>
       <div>
@@ -11,7 +11,7 @@ const Post = ({ src, title, para }) => {
       <div className={styles.text}>
         <h3>{title}</h3>
 
-        <p>{para}</p>
+        <p>{excerpt}</p>
       </div>
     </div>
   );
