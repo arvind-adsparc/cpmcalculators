@@ -8,7 +8,6 @@ import Post from "../../components/Post/post";
 import styles from "../../styles/ImproveRevenue.module.scss";
 
 const ImproveRevenue = ({ posts }) => {
-  console.log("posts", posts);
   return (
     <>
       <Seo title="Improve Revenue | CPM Calculators" description="" />
