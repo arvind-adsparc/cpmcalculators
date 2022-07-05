@@ -7,9 +7,4 @@ src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calcul
 cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
 ---
 
-Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
-haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
-manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
-verba caput ferarum _nubila_? Patriam Cyparisse tamen, **saxum** fide postponere
-pavida ne omnes etiam, atque. Sonuit omina sed sine haerebat illic fit a mora
-in.
+### Introduction
