@@ -8,9 +8,4 @@ src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calcul
 cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
 ---
 
-Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
-haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter
-manus. Munere in exhalat, ferre sed [habe quaeque saepe](http://ne.org/fretum)
-verba caput ferarum _nubila_? Patriam Cyparisse tamen, **saxum** fide postponere
-pavida ne omnes etiam, atque. Sonuit omina sed sine haerebat illic fit a mora
-in.
+CPM is one of the most significant advertising metrics. CPM means cost per mille, i.e. the cost per thousand impressions. Simply it means the cost of having an ad published, seen a thousand times on a particular website, and is used to inspect and oversee ad performance. Since early online marketing campaigns, CPM has acted as an industry standard that determines web ads’ advertising costs and pricing. CPM calculation is simple – take the total cost paid in CPM campaigns and then multiply the total impressions by the CPM rate and then divide it by one thousand. For example, one million impressions at 1 $ CPM equals $1000 in gross revenue.

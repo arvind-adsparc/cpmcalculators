@@ -16,7 +16,7 @@ const BlogPage = ({
     <Layout>
       <div className={styles.blogContainer}>
         <div className="container">
-          <h2 className={styles.title}>{title}</h2>
+          <h1 className={styles.title}>{title}</h1>
 
           <div className={styles.imageDiv}>
             <Image src={cover_image} alt={title} width={900} height={500} />

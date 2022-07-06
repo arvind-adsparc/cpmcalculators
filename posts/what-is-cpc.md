@@ -8,7 +8,7 @@ src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calcul
 cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
 ---
 
-### Introduction
+## Introduction
 
 Advertising is a prominent part of Digital Marketing. Whether you’re running your website or trying to increase your outreach on a social media platform, you usually require some form of advertising to be successful.
 
@@ -20,7 +20,7 @@ This creates a strong mutually beneficial agreement between the advertiser and t
 
 **Cost-Per-Click = (Total Advertising Expenditure / Total Number of Clicks)**
 
-### How does it work?
+## How does it work?
 
 When you create an ad that you wish to place in a specific location, such as the top of the Google search results, a type of auction takes place among competitors that decide whether your ad will be displayed in the desired location or elsewhere.
 
@@ -35,27 +35,27 @@ According to this ranking, the amount that you spend on your ad is determined wh
 
 The cost to the advertiser is not a fixed cost and can vary between clicks. This is because the cost incurred when an ad is clicked on is based on a bid, where you can set a maximum limit (or max CPC) on the amount you would like to spend on a click for that ad. Once you have a max CPC set, in most cases, that limit isn’t crossed. The max CPC is also a factor that is taken into account in the ad auction. If a competitor has a higher max CPC than you, their ad might be prioritized and displayed instead of yours.
 
-### Benefits of CPC
+## Benefits of CPC
 
-#### Use of Ad Networks
+### Use of Ad Networks
 
 Ad Networks are intermediaries who connect advertisers and publishers and help facilitate the supply and demand needs of the online advertising market. Using CPC advertising gives you access to a wide range of Ad Networks, each with its key features and benefits, providing you with ample opportunities to expand your outreach.
 
-#### Greater variety of Ads
+### Greater variety of Ads
 
 Technological advancements have made it easy to customize ads for different content, sizes, and platforms, enabling advertisers to generate a large variety of ads, each with a specific purpose. Repositories of ads can be made specifically for mobile and desktop users, thereby maximizing the CPC ad outreach.
 
-#### Instant and Increased Traffic
+### Instant and Increased Traffic
 
 Search Engine Optimization (SEO) strategies to increase organic searches and page rankings take time to generate definitive results. With CPC ads, the results are instant, as every click on an ad represents an increase in traffic to the advertiser’s website.
 
-#### Increased Keywords
+### Increased Keywords
 
 SEO strategies involve bidding on keywords that relate to your business. This can be a complicated and expensive process, as you only want to use those specific words that explain or compliment your offerings. However, with CPC ads, you have the luxury of including a wide variety of keywords in a large number of ads. Different ads can have different keywords, thereby increasing the number of words you can use to describe or relate to your business.
 
 As a Publisher, it would be in your best interest to use the keywords pertinent to the Advertiser’s business so that your page attracts those users who are more likely to click the ads. An example of this would be running a monthly blog of the top 10 restaurants currently trending; it would help focus on keywords such as “cuisines” or “delicacies” to ensure that your page is ranked higher. You obtain those extra clicks from visitors.
 
-### AdSense and AdMob
+## AdSense and AdMob
 
 In recent years, there has been a massive increase in smartphone capabilities and usage. It includes total ad spending on mobiles and highlights the importance of mobile advertising to be successful.
 
@@ -65,6 +65,6 @@ To benefit from the full potential of AdSense, publishers need to ensure their a
 
 AdMob, owned by Google, is an advertising platform built for monetizing and promoting mobile applications and one of the largest ad networks in the world. It focuses on maximizing revenues while delivering a smooth user experience. Millions of businesses use AdMob to help facilitate their growth, making it one of the most popular and efficient tools in the mobile advertising market. They’re at the forefront of CPC mobile advertising and worth a mention here!
 
-#### Conclusion
+## Conclusion
 
 CPC ads can be viewed as a specialized strategy. The primary reason is that it’s not the cheapest strategy to implement and involves great precision regarding ad design and keyword content. Advertisers need to carefully contemplate their max CPC while considering the various Ad Ranking factors that might affect the ad auction results. There is no doubt that it is an effective means of gaining significant returns on investment. Millions of companies around the world successfully implement CPC ad strategies using multiple CPC ad networks.
