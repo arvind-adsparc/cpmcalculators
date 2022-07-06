@@ -15,6 +15,10 @@
     transition: all 0.2s ease;
   }
 
+  .imageDiv {
+    cursor: pointer;
+  }
+
   h3 {
     font-weight: variables.$medium;
 

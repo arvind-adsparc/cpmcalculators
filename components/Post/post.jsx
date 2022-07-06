@@ -7,7 +7,16 @@ const Post = ({ src, title, excerpt, slug, tag }) => {
   return (
     <div className={styles.post}>
       <div>
-        <Image src={src} alt="" layout="responsive" width={100} height={50} />
+        <Link href={`/blog/${slug}`}>
+          <Image
+            className={styles.imageDiv}
+            src={src}
+            alt=""
+            layout="responsive"
+            width={100}
+            height={50}
+          />
+        </Link>
       </div>
 
       <div className={styles.content}>
