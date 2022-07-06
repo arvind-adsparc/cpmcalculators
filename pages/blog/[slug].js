@@ -5,6 +5,7 @@ import { marked } from "marked";
 import Image from "next/image";
 import Layout from "../../components/Layout";
 import styles from "../../styles/BlogPage.module.scss";
+import Newsletter from "../../components/Newsletter";
 
 const BlogPage = ({
   frontmatter: { title, date, cover_image },
@@ -29,6 +30,7 @@ const BlogPage = ({
           </div>
         </div>
       </div>
+      <Newsletter />
     </Layout>
   );
 };

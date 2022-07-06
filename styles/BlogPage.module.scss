@@ -3,6 +3,10 @@
 .blogContainer {
   padding: 2rem 0;
 
+  @media only screen and (min-width: variables.$desktopSmall) {
+    padding-bottom: 4rem;
+  }
+
   .group {
     display: flex;
   }
