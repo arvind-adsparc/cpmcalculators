@@ -58,12 +58,17 @@
     }
 
     p,
-    ul {
+    ul,
+    ol {
       font-size: variables.$blogParaMob;
 
       @media only screen and (min-width: variables.$desktopSmall) {
         font-size: variables.$blogPara;
       }
+    }
+
+    li {
+      margin: 1rem 0;
     }
 
     strong {
@@ -72,6 +77,12 @@
 
     a {
       color: variables.$secondaryColor;
+    }
+
+    img {
+      @media only screen and (min-width: variables.$desktopSmall) {
+        width: fit-content;
+      }
     }
   }
 }
