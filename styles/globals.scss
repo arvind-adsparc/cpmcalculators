@@ -155,3 +155,22 @@ img {
     font-size: 0.8rem;
   }
 }
+
+// nav dropdown
+
+.ant-dropdown-menu {
+  border-radius: 10px;
+  padding: initial;
+  overflow: hidden;
+}
+
+.ant-dropdown-menu-item {
+  padding: 0.9rem 1.5rem;
+  font-weight: 500;
+
+  &:hover {
+    background-color: #f64c71;
+    color: #fff;
+  }
+  // color: #fff;
+}

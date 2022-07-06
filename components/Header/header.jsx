@@ -32,14 +32,14 @@ const Header = () => {
 
         <nav className={styles.navDesk}>
           <div className={styles.links}>
-            <Dropdown overlay={MenuOne} placement="bottomRight" arrow>
+            <Dropdown overlay={MenuOne} placement="bottom" arrow>
               <div className={styles.link}>
                 Calculators{" "}
                 <Image src="/navArrow.svg" alt="" width={10} height={10} />
               </div>
             </Dropdown>
 
-            <Dropdown overlay={MenuTwo} placement="bottomRight" arrow>
+            <Dropdown overlay={MenuTwo} placement="bottom" arrow>
               <div className={styles.link}>
                 Ad Metrics{" "}
                 <Image src="/navArrow.svg" alt="" width={10} height={10} />
