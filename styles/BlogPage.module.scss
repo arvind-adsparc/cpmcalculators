@@ -53,6 +53,10 @@
       }
     }
 
+    p {
+      font-weight: variables.$regular;
+    }
+
     p,
     ul {
       font-size: variables.$blogParaMob;
@@ -64,6 +68,10 @@
 
     strong {
       font-weight: variables.$medium;
+    }
+
+    a {
+      color: variables.$secondaryColor;
     }
   }
 }
