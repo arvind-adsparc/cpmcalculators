@@ -6,19 +6,19 @@ const MenuOne = (
     items={[
       {
         key: "cpm",
-        label: <Link href="#">CPM Calcuator</Link>,
+        label: <Link href="/">CPM Calcuator</Link>,
       },
       {
         key: "rpm",
-        label: <Link href="#">RPM Calcuator</Link>,
+        label: <Link href="/calculators/rpm-calculator/">RPM Calcuator</Link>,
       },
       {
         key: "eCPM",
-        label: <Link href="#">eCPM Calcuator</Link>,
+        label: <Link href="/calculators/ecpm-calculator/">eCPM Calcuator</Link>,
       },
       {
         key: "epmv",
-        label: <Link href="#">EPMV Calcuator</Link>,
+        label: <Link href="/calculators/epmv-calculator/">EPMV Calcuator</Link>,
       },
     ]}
   />
