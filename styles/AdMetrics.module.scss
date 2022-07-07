@@ -49,9 +49,17 @@
   .metric {
     text-align: center;
     margin: 1rem 0;
+    cursor: pointer;
 
     @media only screen and (min-width: variables.$desktopSmall) {
-      margin: 2rem 0;
+      margin: 1rem 0;
+      padding: 2rem 0;
+      transition: all 0.5s ease;
+
+      &:hover {
+        box-shadow: -2px 8px 22px 0 rgb(0 0 0 / 15%);
+        transition: all 0.2s ease;
+      }
     }
 
     .imageDiv {
