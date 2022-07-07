@@ -1,9 +1,8 @@
 import Image from "next/image";
+import CalculatorForm from "../Forms/calculator";
+import styles from "../../styles/HeroHome.module.scss";
 
-import CalculatorForm from "../../Forms/calculator";
-import styles from "../../../styles/HeroHome.module.scss";
-
-const HeroHome = () => {
+const DefaultHome = ({ name }) => {
   return (
     <section className={styles.heroContainer}>
       <div className="container">
@@ -11,7 +10,7 @@ const HeroHome = () => {
           <div className={styles.group}>
             <div>
               <h1 className={styles.title}>
-                Calculate <span className={styles.lineDeco}>your CPM</span>{" "}
+                Calculate <span className={styles.lineDeco}>your {name}</span>{" "}
                 <span className={styles.lineBreak}></span> Stay on{" "}
                 <span className={styles.lineDeco}> top of monetization.</span>
               </h1>
@@ -44,4 +43,4 @@ const HeroHome = () => {
   );
 };
 
-export default HeroHome;
+export default DefaultHome;
