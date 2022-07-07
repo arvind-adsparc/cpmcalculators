@@ -14,7 +14,10 @@ const eCPMCalculator = () => {
 
       <Layout>
         <section className="page">
-          <DefaultHome name="EPMV" />
+          <DefaultHome
+            name="EPMV"
+            heroImage="https://res.cloudinary.com/dqove2qhg/image/upload/v1656073535/CPM%20Calculators/epmv_zk5b7c.svg"
+          />
 
           <AbouteEPMV />
           <CTABar

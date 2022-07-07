@@ -14,7 +14,10 @@ const RPMCalculator = () => {
 
       <Layout>
         <section className="page">
-          <DefaultHome name="RPM" />
+          <DefaultHome
+            name="RPM"
+            heroImage="https://res.cloudinary.com/dqove2qhg/image/upload/v1656073535/CPM%20Calculators/rpm_tararq.svg"
+          />
           <AboutRPM />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."

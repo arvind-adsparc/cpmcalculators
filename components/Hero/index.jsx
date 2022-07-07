@@ -2,7 +2,7 @@ import Image from "next/image";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
 
-const DefaultHome = ({ name }) => {
+const DefaultHome = ({ name, heroImage }) => {
   return (
     <section className={styles.heroContainer}>
       <div className="container">
@@ -19,7 +19,11 @@ const DefaultHome = ({ name }) => {
 
             <div className={styles.imageContainer}>
               <Image
-                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656426401/CPM%20Calculators/hero-image_ndouct.svg"
+                src={
+                  heroImage
+                    ? heroImage
+                    : "https://res.cloudinary.com/dqove2qhg/image/upload/v1656426401/CPM%20Calculators/hero-image_ndouct.svg"
+                }
                 alt="CPM Calculators"
                 width={400}
                 height={400}
