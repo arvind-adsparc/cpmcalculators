@@ -39,6 +39,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* button */
@@ -173,4 +174,14 @@ img {
     color: #fff;
   }
   // color: #fff;
+}
+
+.ant-collapse {
+  border: none;
+  background: none;
+  padding: initial;
+  > .ant-collapse-item {
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
 }
