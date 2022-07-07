@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/AboutCPM.module.scss";
 
-const AboutCPM = () => {
+const About = () => {
   return (
     <section className={styles.aboutCPM}>
       <div className="container">
@@ -54,4 +54,4 @@ const AboutCPM = () => {
   );
 };
 
-export default AboutCPM;
+export default About;

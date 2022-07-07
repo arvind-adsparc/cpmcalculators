@@ -1,4 +1,4 @@
-import AboutCPM from "../components/AboutCPM";
+import About from "../components/About";
 import AdMetrics from "../components/AdMetrics";
 import CTABar from "../components/CTABar";
 import HeroHome from "../components/Hero/Home";
@@ -17,7 +17,7 @@ export default function Home() {
       <Layout>
         <section className="page">
           <HeroHome />
-          <AboutCPM />
+          <About />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."
             btnText="Get Started"
