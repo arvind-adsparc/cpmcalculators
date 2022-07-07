@@ -6,6 +6,7 @@ import Image from "next/image";
 import Layout from "../../components/Layout";
 import styles from "../../styles/BlogPage.module.scss";
 import Newsletter from "../../components/Newsletter";
+import Seo from "../../components/Seo";
 
 const BlogPage = ({
   frontmatter: { title, date, cover_image },
@@ -13,25 +14,31 @@ const BlogPage = ({
   content,
 }) => {
   return (
-    <Layout>
-      <div className={styles.blogContainer}>
-        <div className="container">
-          <h1 className={styles.title}>{title}</h1>
+    <>
+      <Seo title={`${title} |   CPM Calculators `} description="" />
 
-          <div className={styles.imageDiv}>
-            <Image src={cover_image} alt={title} width={900} height={500} />
-          </div>
+      <Layout>
+        <div className={styles.blogContainer}>
+          <div className="container">
+            <h1 className={styles.title}>{title}</h1>
 
-          <div className={styles.group}>
-            <div className={styles.content}>
-              <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+            <div className={styles.imageDiv}>
+              <Image src={cover_image} alt={title} width={900} height={500} />
             </div>
-            <div className="sidebar"></div>
+
+            <div className={styles.group}>
+              <div className={styles.content}>
+                <div
+                  dangerouslySetInnerHTML={{ __html: marked(content) }}
+                ></div>
+              </div>
+              <div className="sidebar"></div>
+            </div>
           </div>
         </div>
-      </div>
-      <Newsletter />
-    </Layout>
+        <Newsletter />
+      </Layout>
+    </>
   );
 };
 
