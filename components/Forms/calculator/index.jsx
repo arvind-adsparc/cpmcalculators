@@ -5,7 +5,7 @@ import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
 import styles from "../../../styles/CalculatorForm.module.scss";
 
-const CalculatorForm = () => {
+const CalculatorForm = ({ name }) => {
   const [openModal, setOpenModal] = useState(false);
 
   const [impressions, setImpressions] = useState("");
@@ -55,7 +55,7 @@ const CalculatorForm = () => {
   };
   return (
     <div className={styles.formContainer}>
-      <h3>CPM Calculator</h3>
+      <h3>{name} Calculator</h3>
       <p>Complete two fields and we will calculate the third one for you</p>
 
       {error && <Alert message={error} type="error" />}

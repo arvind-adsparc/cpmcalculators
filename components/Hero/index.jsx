@@ -2,7 +2,7 @@ import Image from "next/image";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
 
-const DefaultHome = ({ name, heroImage }) => {
+const DefaultHome = ({ name, heroImage, formHead }) => {
   return (
     <section className={styles.heroContainer}>
       <div className="container">
@@ -14,7 +14,7 @@ const DefaultHome = ({ name, heroImage }) => {
                 <span className={styles.lineBreak}></span> Stay on{" "}
                 <span className={styles.lineDeco}> top of monetization.</span>
               </h1>
-              <CalculatorForm />
+              <CalculatorForm name={name} />
             </div>
 
             <div className={styles.imageContainer}>
