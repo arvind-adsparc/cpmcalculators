@@ -5,6 +5,7 @@ import AdMetrics from "../../components/AdMetrics";
 import Newsletter from "../../components/Newsletter";
 import RecentArticle from "../../components/RecentArticle";
 import AboutRPM from "../../components/About/aboutRPM";
+import DefaultHome from "../../components/Hero";
 
 const RPMCalculator = () => {
   return (
@@ -13,6 +14,7 @@ const RPMCalculator = () => {
 
       <Layout>
         <section className="page">
+          <DefaultHome name="RPM" />
           <AboutRPM />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."

@@ -4,8 +4,8 @@ import CTABar from "../../components/CTABar";
 import AdMetrics from "../../components/AdMetrics";
 import Newsletter from "../../components/Newsletter";
 import RecentArticle from "../../components/RecentArticle";
-import AbouteCPM from "../../components/About/abouteCPM";
 import AbouteEPMV from "../../components/About/aboutEPMV";
+import DefaultHome from "../../components/Hero";
 
 const eCPMCalculator = () => {
   return (
@@ -14,8 +14,9 @@ const eCPMCalculator = () => {
 
       <Layout>
         <section className="page">
-          <AbouteEPMV />
+          <DefaultHome name="EPMV" />
 
+          <AbouteEPMV />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."
             btnText="Get Started"
