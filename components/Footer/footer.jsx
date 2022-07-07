@@ -35,7 +35,9 @@ const Footer = () => {
             <div className={styles.grid}>
               <div className={styles.link}>Calculator</div>
               <div className={styles.link}>Ad Metrics</div>
-              <div className={styles.link}>Improve Revenue</div>
+              <div className={styles.link}>
+                <Link href="/blog">Improve Revenue</Link>
+              </div>
               <div className={styles.link}>About Us</div>
               <div className={styles.link}>Privacy Policy</div>
             </div>
