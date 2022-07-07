@@ -2,7 +2,7 @@ import Image from "next/image";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
 
-const DefaultHome = ({ name, heroImage, formHead }) => {
+const DefaultHome = ({ name, heroImage }) => {
   return (
     <section className={styles.heroContainer}>
       <div className="container">

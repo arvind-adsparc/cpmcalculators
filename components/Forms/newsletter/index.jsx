@@ -17,9 +17,7 @@ const NewsletterForm = () => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
-  const onFinish = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
+  const onFinish = (errorInfo) => {};
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
   };
