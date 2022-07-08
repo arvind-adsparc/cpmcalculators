@@ -1,5 +1,10 @@
 import Image from "next/image";
-import { cpmFormSchema, rpmFormSchema, eCPMFormSchema } from "./schema";
+import {
+  cpmFormSchema,
+  rpmFormSchema,
+  eCPMFormSchema,
+  epmvFormSchema,
+} from "./schema";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
 
@@ -12,8 +17,10 @@ const DefaultHome = ({ name, heroImage }) => {
         return <CalculatorForm name={name} formContent={rpmFormSchema} />;
       case "eCPM":
         return <CalculatorForm name={name} formContent={eCPMFormSchema} />;
+      case "eCPM":
+        return <CalculatorForm name={name} formContent={eCPMFormSchema} />;
       default:
-        return <div>test</div>;
+        return <CalculatorForm name={name} formContent={epmvFormSchema} />;
     }
   };
 

@@ -63,3 +63,24 @@ export const eCPMFormSchema = [
     placeholder: "Total Measure Impressions",
   },
 ];
+
+export const epmvFormSchema = [
+  {
+    name: "valueOne",
+    label: "EPMV",
+    type: "number",
+    placeholder: "Total EPMV",
+  },
+  {
+    name: "valueTwo",
+    label: "Monthly Visitors",
+    type: "number",
+    placeholder: "Monthly Visitors",
+  },
+  {
+    name: "valueThree",
+    label: "Monthly Revenue",
+    type: "number",
+    placeholder: "Monthly Revenue",
+  },
+];
