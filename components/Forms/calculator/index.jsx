@@ -34,7 +34,8 @@ const CalculatorForm = ({ name }) => {
     }
   };
 
-  const onCalculate = () => {
+  const onCalculate = (e) => {
+    e.preventDefault();
     // const valueOneData = { value: valueOne, label: "Impressions" };
     // const valueTwoData = { value: valueTwo, label: "CPM" };
     // const valueTHreeData = { value: valueThree, label: "Campaign Cost" };
@@ -51,11 +52,11 @@ const CalculatorForm = ({ name }) => {
     // setOpenModal(true); // for testing
   };
 
-  const onClear = () => {
-    setValueOne("");
-    setValueTwo("");
-    setValueThree("");
-  };
+  // const onClear = (e) => {
+  //   setValueOne("");
+  //   setValueTwo("");
+  //   setValueThree("");
+  // };
   return (
     <div className={styles.formContainer}>
       <h3>{name} Calculator</h3>
@@ -63,12 +64,11 @@ const CalculatorForm = ({ name }) => {
 
       {error && <Alert message={error} type="error" />}
 
-      <div>
+      <form onSubmit={onCalculate}>
         <Input
           name="impressions"
           label="Impressions"
           type="number"
-          valueField={valueOne}
           placeholder={"This is how many times the ad is viewed on a website"}
           getValuesFn={getValues}
         />
@@ -76,7 +76,6 @@ const CalculatorForm = ({ name }) => {
           name="cpm"
           label="CPM($)"
           type="number"
-          valueField={valueTwo}
           placeholder={"Cost per thousand impressions in one ad unit"}
           getValuesFn={getValues}
         />
@@ -84,16 +83,15 @@ const CalculatorForm = ({ name }) => {
           name="campaignCost"
           label="Campaign Cost($)"
           type="number"
-          valueField={valueThree}
           placeholder={"Total budget for the campaign"}
           getValuesFn={getValues}
         />
 
         <div className={styles.ctas}>
-          <button onClick={onCalculate} className={styles.btn}>
+          <button type="submit" className={styles.btn}>
             Calculate
           </button>
-          <button onClick={onClear} className={styles.btn}>
+          <button type="reset" className={styles.btn}>
             Clear
           </button>
         </div>
@@ -103,7 +101,7 @@ const CalculatorForm = ({ name }) => {
           openModal={openModal}
           closeModal={closeModal}
         />
-      </div>
+      </form>
     </div>
   );
 };
