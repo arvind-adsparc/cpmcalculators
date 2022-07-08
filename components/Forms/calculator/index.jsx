@@ -8,9 +8,9 @@ import styles from "../../../styles/CalculatorForm.module.scss";
 const CalculatorForm = ({ name }) => {
   const [openModal, setOpenModal] = useState(false);
 
-  const [impressions, setImpressions] = useState("");
-  const [cpm, setCPM] = useState("");
-  const [campaignCost, setCampaignCost] = useState("");
+  const [valueOne, setValueOne] = useState("");
+  const [valueTwo, setValueTwo] = useState("");
+  const [valueThree, setValueThree] = useState("");
   const [error, setError] = useState("");
   const [calculation, setCalculation] = useState("");
 
@@ -21,13 +21,13 @@ const CalculatorForm = ({ name }) => {
   const getValues = (data) => {
     switch (data.name) {
       case "impressions":
-        setImpressions(data.value);
+        setValueOne(data.value);
         break;
       case "cpm":
-        setCPM(data.value);
+        setValueTwo(data.value);
         break;
       case "campaignCost":
-        setCampaignCost(data.value);
+        setValueThree(data.value);
         break;
       default:
         break;
@@ -35,7 +35,10 @@ const CalculatorForm = ({ name }) => {
   };
 
   const onCalculate = () => {
-    const result = validateFn(impressions, cpm, campaignCost);
+    // const valueOneData = { value: valueOne, label: "Impressions" };
+    // const valueTwoData = { value: valueTwo, label: "CPM" };
+    // const valueTHreeData = { value: valueThree, label: "Campaign Cost" };
+    const result = validateFn(valueOne, valueTwo, valueThree);
 
     if (result.status) {
       setOpenModal(true);
@@ -49,9 +52,9 @@ const CalculatorForm = ({ name }) => {
   };
 
   const onClear = () => {
-    setImpressions("");
-    setCPM("");
-    setCampaignCost("");
+    setValueOne("");
+    setValueTwo("");
+    setValueThree("");
   };
   return (
     <div className={styles.formContainer}>
@@ -65,7 +68,7 @@ const CalculatorForm = ({ name }) => {
           name="impressions"
           label="Impressions"
           type="number"
-          valueField={impressions}
+          valueField={valueOne}
           placeholder={"This is how many times the ad is viewed on a website"}
           getValuesFn={getValues}
         />
@@ -73,7 +76,7 @@ const CalculatorForm = ({ name }) => {
           name="cpm"
           label="CPM($)"
           type="number"
-          valueField={cpm}
+          valueField={valueTwo}
           placeholder={"Cost per thousand impressions in one ad unit"}
           getValuesFn={getValues}
         />
@@ -81,7 +84,7 @@ const CalculatorForm = ({ name }) => {
           name="campaignCost"
           label="Campaign Cost($)"
           type="number"
-          valueField={campaignCost}
+          valueField={valueThree}
           placeholder={"Total budget for the campaign"}
           getValuesFn={getValues}
         />
