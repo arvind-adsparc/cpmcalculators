@@ -1,8 +1,20 @@
 import Image from "next/image";
+import { cpmFormSchema, rpmFormSchema } from "./schema";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
 
 const DefaultHome = ({ name, heroImage }) => {
+  const formTemplate = () => {
+    switch (name) {
+      case "CPM":
+        return <CalculatorForm name={name} formContent={cpmFormSchema} />;
+      case "RPM":
+        return <CalculatorForm name={name} formContent={rpmFormSchema} />;
+      default:
+        return <div>test</div>;
+    }
+  };
+
   return (
     <section className={styles.heroContainer}>
       <div className="container">
@@ -14,7 +26,9 @@ const DefaultHome = ({ name, heroImage }) => {
                 <span className={styles.lineBreak}></span> Stay on{" "}
                 <span className={styles.lineDeco}> top of monetization.</span>
               </h1>
-              <CalculatorForm name={name} />
+              {/* <CalculatorForm name={name} /> */}
+
+              {formTemplate()}
             </div>
 
             <div className={styles.imageContainer}>

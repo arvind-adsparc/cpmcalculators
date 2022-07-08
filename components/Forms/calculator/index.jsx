@@ -5,7 +5,7 @@ import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
 import styles from "../../../styles/CalculatorForm.module.scss";
 
-const CalculatorForm = ({ name }) => {
+const CalculatorForm = ({ name, formContent }) => {
   const [openModal, setOpenModal] = useState(false);
 
   const [valueOne, setValueOne] = useState("");
@@ -20,13 +20,13 @@ const CalculatorForm = ({ name }) => {
 
   const getValues = (data) => {
     switch (data.name) {
-      case "impressions":
+      case "valueOne":
         setValueOne(data.value);
         break;
-      case "cpm":
+      case "valueTwo":
         setValueTwo(data.value);
         break;
-      case "campaignCost":
+      case "valueThree":
         setValueThree(data.value);
         break;
       default:
@@ -65,27 +65,16 @@ const CalculatorForm = ({ name }) => {
       {error && <Alert message={error} type="error" />}
 
       <form onSubmit={onCalculate}>
-        <Input
-          name="impressions"
-          label="Impressions"
-          type="number"
-          placeholder={"This is how many times the ad is viewed on a website"}
-          getValuesFn={getValues}
-        />
-        <Input
-          name="cpm"
-          label="CPM($)"
-          type="number"
-          placeholder={"Cost per thousand impressions in one ad unit"}
-          getValuesFn={getValues}
-        />
-        <Input
-          name="campaignCost"
-          label="Campaign Cost($)"
-          type="number"
-          placeholder={"Total budget for the campaign"}
-          getValuesFn={getValues}
-        />
+        {formContent.map((info) => (
+          <Input
+            key={info.name}
+            name={info.name}
+            label={info.label}
+            type={info.type}
+            placeholder={info.placeholder}
+            getValuesFn={getValues}
+          />
+        ))}
 
         <div className={styles.ctas}>
           <button type="submit" className={styles.btn}>
