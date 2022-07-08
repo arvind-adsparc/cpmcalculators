@@ -36,6 +36,7 @@ const CalculatorForm = ({ name, formContent }) => {
 
   const onCalculate = (e) => {
     e.preventDefault();
+
     // const valueOneData = { value: valueOne, label: "Impressions" };
     // const valueTwoData = { value: valueTwo, label: "CPM" };
     // const valueTHreeData = { value: valueThree, label: "Campaign Cost" };

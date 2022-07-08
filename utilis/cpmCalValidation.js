@@ -1,3 +1,4 @@
+// import { getCPMResult } from "./calculatorResult";
 export const validateFn = (impressions, cpm, campaignCost) => {
   const inputs = [impressions, cpm, campaignCost];
   const validation = inputs.filter((info) => info).length;
