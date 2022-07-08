@@ -49,14 +49,8 @@ const CalculatorForm = ({ name, formContent }) => {
       setError(result.message);
       setOpenModal(false);
     }
-    // setOpenModal(true); // for testing
   };
 
-  // const onClear = (e) => {
-  //   setValueOne("");
-  //   setValueTwo("");
-  //   setValueThree("");
-  // };
   return (
     <div className={styles.formContainer}>
       <h3>{name} Calculator</h3>
