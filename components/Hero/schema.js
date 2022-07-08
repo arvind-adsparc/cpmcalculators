@@ -42,3 +42,24 @@ export const rpmFormSchema = [
     placeholder: "Total Page Views",
   },
 ];
+
+export const eCPMFormSchema = [
+  {
+    name: "valueOne",
+    label: "eCPM",
+    type: "number",
+    placeholder: "Total eCPM",
+  },
+  {
+    name: "valueTwo",
+    label: "Total Revenue",
+    type: "number",
+    placeholder: "Total Revenue",
+  },
+  {
+    name: "valueThree",
+    label: "Total Measure Impressions",
+    type: "number",
+    placeholder: "Total Measure Impressions",
+  },
+];
