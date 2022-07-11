@@ -37,8 +37,17 @@
     justify-content: space-between;
     flex-direction: column;
 
+    @media only screen and (min-width: variables.$desktopSmall) {
+      flex-direction: row;
+      // align-items: center;
+    }
+
     .quickLinks {
       margin: 1rem 0;
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        width: 50%;
+      }
 
       .linkHead {
         font-weight: variables.$bold;
@@ -50,16 +59,41 @@
 
       .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        // grid-template-columns: 1fr 1fr;
+        font-size: 0.9rem;
+
+        @media only screen and (min-width: variables.$desktopSmall) {
+          grid-template-columns: 1fr 1fr;
+          column-gap: 2rem;
+        }
+      }
+    }
+
+    .collapseHead {
+      font-size: 0.8rem;
+      padding: 1rem 0;
+
+      a {
+        display: block;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+
+        @media only screen and (min-width: variables.$desktopSmall) {
+          font-size: 0.95rem;
+        }
+      }
+
+      @media only screen and (min-width: variables.$desktopSmall) {
+        font-size: 0.95rem;
       }
     }
 
     .link {
       font-size: 0.8rem;
-      margin: 0.5rem 0;
+      padding: 1rem 0;
 
       @media only screen and (min-width: variables.$desktopSmall) {
-        font-size: 1rem;
+        font-size: 0.95rem;
       }
     }
   }

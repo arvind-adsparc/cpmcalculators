@@ -12,7 +12,7 @@ const { Panel } = Collapse;
 const Header = () => {
   const [toggleNav, setToggleNav] = useState(false);
   const onNavChange = (key) => {
-    console.log(key);
+    // console.log(key);
   };
   return (
     <header className={styles.header}>
@@ -40,15 +40,36 @@ const Header = () => {
 
         {toggleNav && (
           <div className={styles.mobileCollapse}>
-            <Collapse onChange={onNavChange} expandIconPosition="end">
+            <Collapse
+              className={styles.collapseHead}
+              onChange={onNavChange}
+              expandIconPosition="end"
+            >
               <Panel header="Calculators" key="1">
-                <p>Link</p>
+                <Link href="/">CPM Calcuator</Link>
+                <Link href="/calculators/rpm-calculator/">RPM Calcuator</Link>
+                <Link href="/calculators/ecpm-calculator/">eCPM Calcuator</Link>
+                <Link href="/calculators/epmv-calculator/">EPMV Calcuator</Link>
               </Panel>
             </Collapse>
 
-            <Collapse onChange={onNavChange} expandIconPosition="end">
+            <Collapse
+              className={styles.collapseHead}
+              onChange={onNavChange}
+              expandIconPosition="end"
+            >
               <Panel header="Ad Metrics" key="2">
-                <p>Link</p>
+                <Link href="/ad-metrics/cost-per-click/">
+                  Cost Per Click (CPC)
+                </Link>
+                <Link href="/ad-metrics/cost-per-mile/">
+                  Cost Per Mile(CPM)
+                </Link>
+                <Link href="/ad-metrics/ad-viewability/">Ad Viewability</Link>
+                <Link href="/ad-metrics/ad-impressions/">Ad Impressions</Link>
+                <Link href="/ad-metrics/page-rpm/">Page RPM</Link>
+                <Link href="/ad-metrics/ecpm/">eCPM</Link>
+                <Link href="/ad-metrics/epmv/">EPMV</Link>
               </Panel>
             </Collapse>
 

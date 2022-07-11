@@ -182,6 +182,14 @@ img {
   padding: initial;
   > .ant-collapse-item {
     border: none;
-    border-bottom: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
   }
+
+  .ant-collapse-header {
+    padding: 0.5rem 0 !important;
+  }
+}
+
+.ant-collapse-content-box {
+  padding: initial !important;
 }

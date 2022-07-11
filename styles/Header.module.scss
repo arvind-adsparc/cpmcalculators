@@ -34,8 +34,17 @@
     width: 100%;
     font-weight: variables.$medium;
 
+    .collapseHead {
+      padding: 0.5rem;
+
+      a {
+        display: block;
+        padding: 0.5rem 0;
+      }
+    }
+
     .link {
-      padding: 12px 16px;
+      padding: 1rem 0.5rem;
       // border-bottom: 1px solid #ccc;
     }
   }

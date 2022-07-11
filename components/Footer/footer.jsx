@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { Collapse } from "antd";
 import styles from "../../styles/Footer.module.scss";
+
+const { Panel } = Collapse;
 
 const Footer = () => {
   return (
@@ -33,13 +36,45 @@ const Footer = () => {
             <div className={styles.linkHead}>Quick Links</div>
 
             <div className={styles.grid}>
-              <div className={styles.link}>Calculator</div>
-              <div className={styles.link}>Ad Metrics</div>
+              <Collapse
+                className={styles.collapseHead}
+                onChange={() => {}}
+                expandIconPosition="end"
+              >
+                <Panel header="Calculators" key="1">
+                  <Link href="/">CPM Calcuator</Link>
+                  <Link href="/calculators/rpm-calculator/">RPM Calcuator</Link>
+                  <Link href="/calculators/ecpm-calculator/">
+                    eCPM Calcuator
+                  </Link>
+                  <Link href="/calculators/epmv-calculator/">
+                    EPMV Calcuator
+                  </Link>
+                </Panel>
+              </Collapse>
+
+              <Collapse
+                className={styles.collapseHead}
+                onChange={() => {}}
+                expandIconPosition="end"
+              >
+                <Panel header="Ad Metrics" key="2">
+                  <Link href="/ad-metrics/cost-per-click/">
+                    Cost Per Click (CPC)
+                  </Link>
+                  <Link href="/ad-metrics/cost-per-mile/">
+                    Cost Per Mile(CPM)
+                  </Link>
+                  <Link href="/ad-metrics/ad-viewability/">Ad Viewability</Link>
+                  <Link href="/ad-metrics/ad-impressions/">Ad Impressions</Link>
+                  <Link href="/ad-metrics/page-rpm/">Page RPM</Link>
+                  <Link href="/ad-metrics/ecpm/">eCPM</Link>
+                  <Link href="/ad-metrics/epmv/">EPMV</Link>
+                </Panel>
+              </Collapse>
               <div className={styles.link}>
                 <Link href="/blog">Improve Revenue</Link>
               </div>
-              <div className={styles.link}>About Us</div>
-              <div className={styles.link}>Privacy Policy</div>
             </div>
           </div>
         </div>
