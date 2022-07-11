@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
       <Header />
       <section className="page-content">{children}</section>
       <Footer />
-      <FloatingCTA />
+      {/* <FloatingCTA /> */}
     </main>
   );
 };
