@@ -15,6 +15,8 @@ const Footer = () => {
                 <span>CPM</span> Calculators
               </a>
             </Link>
+
+            <span className={styles.subLogo}>Powered by Adsparc</span>
           </div>
 
           <div className={styles.about}>

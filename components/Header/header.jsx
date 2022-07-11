@@ -23,6 +23,7 @@ const Header = () => {
               <span>CPM</span> Calculators
             </a>
           </Link>
+          <span className={styles.subLogo}>Powered by Adsparc</span>
         </div>
         <nav className={styles.navMob}>
           <div onClick={() => setToggleNav(!toggleNav)} className="nav-icon">
