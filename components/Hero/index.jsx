@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Image from "next/image";
 import {
   cpmFormSchema,
@@ -7,8 +9,14 @@ import {
 } from "./schema";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
+import GetStartedModal from "../Modal/getStartedModal";
 
 const DefaultHome = ({ name, heroImage }) => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const closeModalFn = (value) => {
+    setOpenModal(value);
+  };
   const formTemplate = () => {
     switch (name) {
       case "CPM":
@@ -57,7 +65,12 @@ const DefaultHome = ({ name, heroImage }) => {
               <div className={styles.ctaAction}>
                 <h3>Do you want to increase your current revenue by 30%?</h3>
 
-                <button>Get Started</button>
+                <button onClick={() => setOpenModal(true)}>Get Started</button>
+
+                <GetStartedModal
+                  openModal={openModal}
+                  closeModal={closeModalFn}
+                />
               </div>
             </div>
           </div>
