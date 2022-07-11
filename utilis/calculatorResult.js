@@ -37,10 +37,15 @@ export const getECPMResult = (eCPM, revenue, impressions) => {
   }
 };
 
-export const getEPMVResult = () => {
-  let totalEPMV = (monthlyrevenue / monthlyvisitors) * 1000;
-
-  let totalmonthlyvisitors = (monthlyrevenue / EPMV) * 1000;
-
-  let totalmonthlyrevenue = (EPMV * monthlyvisitors) / 1000;
+export const getEPMVResult = (epmv, monthlyvisitors, monthlyrevenue) => {
+  if (epmv === "") {
+    let totalEPMV = (monthlyrevenue / monthlyvisitors) * 1000;
+    return `On $${monthlyrevenue} monthly revenue if the total monthly visitors are ${monthlyvisitors}  then the total EPMV would be ${totalEPMV} .`;
+  } else if (monthlyvisitors === "") {
+    let totalmonthlyvisitors = (monthlyrevenue / epmv) * 1000;
+    return `On $${monthlyrevenue} monthly revenue if the EPMV is ${epmv}  then the monthly visitors would be ${totalmonthlyvisitors} .`;
+  } else if (monthlyrevenue === "") {
+    let totalmonthlyrevenue = (epmv * monthlyvisitors) / 1000;
+    return `On ${monthlyvisitors} monthly visitors if the EPMV is ${epmv}  then the monthly revenue would be $${totalmonthlyrevenue} .`;
+  }
 };
