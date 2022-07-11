@@ -11,12 +11,17 @@ export const getCPMResult = (impressions, cpm, campaignCost) => {
   }
 };
 
-export const getRPMResult = () => {
-  var totalRPM = (totalrevenue / totalpageviews) * 1000;
-
-  var totaltotalrevenue = (RPM * totalpageviews) / 1000;
-
-  var totaltotalpageviews = (totalrevenue / RPM) * 1000;
+export const getRPMResult = (rpm, revenue, pageviews) => {
+  if (rpm === "") {
+    let totalRPM = (revenue / totalpageviews) * 1000;
+    return `On $${revenue} total revenue if the total page views are $${pageviews}  then the total RPM would be ${totalRPM} .`;
+  } else if (revenue === "") {
+    let totalrevenue = (rpm * pageviews) / 1000;
+    return `On ${rpm} RPM if the total page views are $${pageviews}  then the total revenue would be ${totalrevenue} .`;
+  } else if (pageviews === "") {
+    let totalpageviews = (revenue / rpm) * 1000;
+    return `On ${rpm} RPM if the total revenue  is $${revenue}  then the total page views would be ${totalpageviews} .`;
+  }
 };
 
 export const getECPMResult = () => {
