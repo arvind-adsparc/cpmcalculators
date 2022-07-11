@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Alert } from "antd";
-import { validateFn } from "../../../utilis/cpmCalValidation";
+import { validateFn } from "../../../utilis/calculatorValidataion";
 import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
 import styles from "../../../styles/CalculatorForm.module.scss";
