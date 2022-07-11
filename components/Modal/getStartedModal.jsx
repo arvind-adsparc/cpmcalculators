@@ -13,7 +13,9 @@ const GetStartedModal = ({ openModal, closeModal }) => {
       width={1000}
     >
       <div className={styles.modalContent}>
-        <ModalForm />
+        <div className={styles.modalForm}>
+          <ModalForm />
+        </div>
       </div>
     </Modal>
   );
