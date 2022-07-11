@@ -4,8 +4,8 @@ title: "What is Page RPM?"
 tag: "Ad Metric"
 date: "September 23, 2021"
 excerpt: "The Page RPM metric supports publishers to recognize the actual performance of their ads on a page level. This way, a publisher can identify low-earning pages and..."
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657016363/CPM%20Calculators/RPM_uuu8hm.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657016363/CPM%20Calculators/RPM_uuu8hm.jpg"
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518007/CPM%20Calculators/Frame_3_4_jn2t27.svg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518007/CPM%20Calculators/Frame_3_4_jn2t27.svg"
 ---
 
 The [Page RPM](https://support.google.com/adsense/answer/112030?hl=en) metric supports publishers to recognize the actual performance of their ads on a page level. This way, a publisher can identify low-earning pages and strategize how to progress and advance their performance. Page RPM = Revenue / Number of page views x 1,000. Page RPM is an exceptional proportional metric to assess multiple page performance on a specific website. Page RPM showcases a broader picture to the publisher about what’s going on with the pages concerning revenue at any corresponding period, page to page, or more.

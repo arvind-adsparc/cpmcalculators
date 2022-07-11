@@ -4,8 +4,8 @@ title: "What is Ad Impressions?"
 tag: "Ad Metrics"
 date: "November 10, 2021"
 excerpt: "An ad impression or view-through is when a user or viewer sees an ad. An ad impression can happen any time a user or a viewer browses an app or website and an ad is visible. However, the concept of impressions is not to be confused with an engagement. An ad impression can be defined as the total number of times digital ads are being displayed on an individual’s screen within the publisher’s network."
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518297/CPM%20Calculators/Frame_3_7_isqyah.svg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518297/CPM%20Calculators/Frame_3_7_isqyah.svg"
 ---
 
 An ad impression or view-through is when a user or viewer sees an ad. An [ad impression](https://support.google.com/adsense/answer/6157410?hl=en) can happen any time a user or a viewer browses an app or website and an ad is visible. However, the concept of impressions is not to be confused with an engagement. An ad impression can be defined as the total number of times digital ads are being displayed on an individual’s screen within the publisher’s network.

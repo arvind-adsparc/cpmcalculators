@@ -4,8 +4,8 @@ title: "What is Ad Viewability?"
 tag: "Blog"
 date: "September 23, 2021"
 excerpt: "CPM is one of the most significant advertising metrics. CPM means cost per mille, i.e. the cost per thousand impressions. Simply it means the cost..."
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518213/CPM%20Calculators/Frame_3_6_mvqwkn.svg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518213/CPM%20Calculators/Frame_3_6_mvqwkn.svg"
 ---
 
 According to the IAB & Media Rating Council, the term ad viewability is the percentage of total ad impressions considered viewable if these two criteria are met.

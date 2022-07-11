@@ -4,8 +4,8 @@ title: "What is EPMV?"
 tag: "Ad Metric"
 date: "November 10, 2021"
 excerpt: ""
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1656919044/CPM%20Calculators/what-is-cpc_jzmutv.jpg"
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517823/CPM%20Calculators/Frame_3_2_meynfe.svg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517823/CPM%20Calculators/Frame_3_2_meynfe.svg"
 ---
 
 EPMV or ‘Earnings per Thousand Visitors’ is also known as session RPM or session revenue.

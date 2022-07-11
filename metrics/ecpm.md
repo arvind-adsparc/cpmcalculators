@@ -4,8 +4,8 @@ title: "What is eCPM?"
 tag: "Ad Metric"
 date: "September 23, 2021"
 excerpt: "CPM is one of the most significant advertising metrics. CPM means cost per mille, i.e. the cost per thousand impressions. Simply it means the cost..."
-src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
-cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657015890/CPM%20Calculators/eCPM_lmjy9s.jpg"
+src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517915/CPM%20Calculators/Frame_3_3_kickuq.svg"
+cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517915/CPM%20Calculators/Frame_3_3_kickuq.svg"
 ---
 
 Let’s decode the answer to the question, what is eCPM? eCPM is a strategic ad performance metric used by publishers to scrutinize and monitor the revenue generated from the ads on their site. eCPM frequently gets tangled with the CPM metric by publishers. It’s easy to get jumbled with these two terms at first, but that won’t happen again once you finish reading this article. Today we’ll see the significant difference between CPM vs eCPM and how you can calculate eCPM.
