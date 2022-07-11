@@ -14,7 +14,7 @@ export const getCPMResult = (impressions, cpm, campaignCost) => {
 export const getRPMResult = (rpm, revenue, pageviews) => {
   if (rpm === "") {
     let totalRPM = (revenue / totalpageviews) * 1000;
-    return `On $${revenue} total revenue if the total page views are $${pageviews}  then the total RPM would be ${totalRPM} .`;
+    return `On $${revenue} total revenue if the total page views are ${pageviews}  then the total RPM would be ${totalRPM} .`;
   } else if (revenue === "") {
     let totalrevenue = (rpm * pageviews) / 1000;
     return `On ${rpm} RPM if the total page views are $${pageviews}  then the total revenue would be ${totalrevenue} .`;
@@ -24,18 +24,23 @@ export const getRPMResult = (rpm, revenue, pageviews) => {
   }
 };
 
-export const getECPMResult = () => {
-  var totaleCPM = (totalrevenue / totalimpressions) * 1000;
-
-  var totaltotalrevenue = (eCPM * totalimpressions) / 1000;
-
-  var totaltotalimpressions = (totalrevenue / eCPM) * 1000;
+export const getECPMResult = (eCPM, revenue, impressions) => {
+  if (eCPM === "") {
+    let totaleCPM = (revenue / impressions) * 1000;
+    return `On $${revenue} total revenue if the total impressions are ${impressions}  then the total eCPM would be ${totaleCPM} .`;
+  } else if (revenue === "") {
+    let totalrevenue = (eCPM * impressions) / 1000;
+    return `On ${eCPM} eCPM  if the total impressions are ${impressions}  then the total revenue would be ${totalrevenue} .`;
+  } else if (impressions === "") {
+    let totalimpressions = (revenue / eCPM) * 1000;
+    return `On ${revenue} revenue if the total eCPM  is $${eCPM}  then the total impressions would be ${totalimpressions} .`;
+  }
 };
 
 export const getEPMVResult = () => {
-  var totalEPMV = (monthlyrevenue / monthlyvisitors) * 1000;
+  let totalEPMV = (monthlyrevenue / monthlyvisitors) * 1000;
 
-  var totalmonthlyvisitors = (monthlyrevenue / EPMV) * 1000;
+  let totalmonthlyvisitors = (monthlyrevenue / EPMV) * 1000;
 
-  var totalmonthlyrevenue = (EPMV * monthlyvisitors) / 1000;
+  let totalmonthlyrevenue = (EPMV * monthlyvisitors) / 1000;
 };

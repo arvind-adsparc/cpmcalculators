@@ -1,6 +1,12 @@
 import { useState } from "react";
 import { Alert } from "antd";
 import { validateFn } from "../../../utilis/calculatorValidataion";
+import {
+  getCPMResult,
+  getRPMResult,
+  getEPMVResult,
+  getECPMResult,
+} from "../../../utilis/calculatorResult";
 import Input from "../../Input/input";
 import CalculateModal from "../../Modal/calculateModal";
 import styles from "../../../styles/CalculatorForm.module.scss";
@@ -37,15 +43,23 @@ const CalculatorForm = ({ name, formContent }) => {
   const onCalculate = (e) => {
     e.preventDefault();
 
-    // const valueOneData = { value: valueOne, label: "Impressions" };
-    // const valueTwoData = { value: valueTwo, label: "CPM" };
-    // const valueTHreeData = { value: valueThree, label: "Campaign Cost" };
     const result = validateFn(valueOne, valueTwo, valueThree);
 
     if (result.status) {
       setOpenModal(true);
       setError(false);
-      setCalculation(result.message);
+
+      if (name === "CPM") {
+        setCalculation(getCPMResult(valueOne, valueTwo, valueThree));
+      } else if (name === "RPM") {
+        setCalculation(getRPMResult(valueOne, valueTwo, valueThree));
+      } else if (name === "eCPM") {
+        setCalculation(getECPMResult(valueOne, valueTwo, valueThree));
+      } else if (name === "EPMV") {
+        setCalculation(getEPMVResult(valueOne, valueTwo, valueThree));
+      }
+
+      // setCalculation(result.message);
     } else {
       setError(result.message);
       setOpenModal(false);
