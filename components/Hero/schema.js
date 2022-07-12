@@ -15,7 +15,7 @@ export const cpmFormSchema = [
   },
   {
     name: "valueThree",
-    label: "Campaign Cost($",
+    label: "Campaign Cost($)",
     type: "number",
     placeholder: "Total budget for the campaign",
     value: "",
