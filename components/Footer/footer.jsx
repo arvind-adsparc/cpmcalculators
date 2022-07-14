@@ -35,7 +35,9 @@ const Footer = () => {
         <div className={styles.links}>
           <div>
             <div className={styles.link}>
-              <a href="mailto:pubgrowth@adsparc.com">pubgrowth@adsparc.com</a>
+              <a href="mailto:pubgrowth@adsparc.com" data-nosnippet>
+                pubgrowth@adsparc.com
+              </a>
             </div>
             <div className={styles.link}>
               <a
