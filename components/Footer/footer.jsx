@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Collapse } from "antd";
 import styles from "../../styles/Footer.module.scss";
 
@@ -16,7 +17,10 @@ const Footer = () => {
               </a>
             </Link>
 
-            <span className={styles.subLogo}>Powered by Adsparc</span>
+            <span className={styles.subLogo}>
+              Powered by Adsparc{" "}
+              <Image src="/adsparcPow.svg" alt="" width={15} height={15} />
+            </span>
           </div>
 
           <div className={styles.about}>
