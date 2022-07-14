@@ -61,6 +61,8 @@
 
   .lineDeco {
     position: relative;
+    display: inline-block;
+    width: max-content;
     &:before {
       content: " ";
       background-color: #73c9a6;

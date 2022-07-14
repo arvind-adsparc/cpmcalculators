@@ -42,7 +42,7 @@ const DefaultHome = ({ name, heroImage }) => {
                 <span className={styles.lineDeco}> Calculate your {name}</span>{" "}
                 <span className={styles.lineBreak}></span>{" "}
                 <span className={styles.lineDeco}>
-                  Stay on top of monetization.
+                  Stay on top of monetization.{" "}
                 </span>
               </h1>
               {/* <CalculatorForm name={name} /> */}
