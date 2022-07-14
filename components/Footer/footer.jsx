@@ -30,8 +30,18 @@ const Footer = () => {
 
         <div className={styles.links}>
           <div>
-            <div className={styles.link}>pubdev@adsparc.com</div>
-            <div className={styles.link}>www.adsparc.com</div>
+            <div className={styles.link}>
+              <a href="mailto:pubgrowth@adsparc.com">pubgrowth@adsparc.com</a>
+            </div>
+            <div className={styles.link}>
+              <a
+                href="https://adsparc.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.adsparc.com
+              </a>
+            </div>
           </div>
 
           <div className={styles.quickLinks}>
