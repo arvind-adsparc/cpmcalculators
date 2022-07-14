@@ -32,7 +32,7 @@ const Header = () => {
           <div onClick={() => setToggleNav(!toggleNav)} className="nav-icon">
             <Image
               src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656065276/CPM%20Calculators/nav_icon_pl11bj.svg"
-              alt="Vercel Logo"
+              alt=""
               width={26}
               height={26}
               priority={true}

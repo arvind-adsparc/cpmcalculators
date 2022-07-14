@@ -15,7 +15,7 @@ const Newsletter = () => {
           <div className={styles.imageContainer}>
             <Image
               src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656425370/CPM%20Calculators/Subscribe-image_mzeumh.svg"
-              alt="Vercel Logo"
+              alt=""
               width={100}
               height={100}
               layout="responsive"

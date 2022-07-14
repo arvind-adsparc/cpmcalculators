@@ -62,7 +62,7 @@ const AdMetrics = () => {
                     <div className={styles.imageDiv}>
                       <Image
                         src={info.src}
-                        alt="Vercel Logo"
+                        alt=""
                         width={100}
                         height={70}
                         layout="responsive"

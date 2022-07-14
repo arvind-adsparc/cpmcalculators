@@ -24,7 +24,7 @@ const AboutRPM = () => {
           <div className={styles.imageDiv}>
             <Image
               src="https://res.cloudinary.com/dqove2qhg/image/upload/v1656070927/CPM%20Calculators/aboutCPM_zuwktl.svg"
-              alt="Vercel Logo"
+              alt=""
               width={500}
               height={500}
               layout="responsive"
