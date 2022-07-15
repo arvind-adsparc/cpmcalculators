@@ -8,6 +8,8 @@ import styles from "../../styles/BlogPage.module.scss";
 import Newsletter from "../../components/Newsletter";
 import Seo from "../../components/Seo";
 
+import RecentArticle from "../../components/RecentArticle";
+
 const MetricsPage = ({
   frontmatter: { title, date, cover_image },
   slug,
@@ -36,6 +38,8 @@ const MetricsPage = ({
             </div>
           </div>
         </div>
+
+        <RecentArticle />
         <Newsletter />
       </Layout>
     </>
