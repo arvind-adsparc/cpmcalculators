@@ -31,7 +31,7 @@ const ModalForm = () => {
   return (
     <div className={styles.modalForm}>
       <div className={styles.formHead}>
-        Do you want to increase your current revenue by 30%?
+        Ready to increase your ad revenue by 30%?
       </div>
 
       <Form

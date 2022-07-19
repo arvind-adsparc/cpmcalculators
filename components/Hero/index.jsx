@@ -65,9 +65,11 @@ const DefaultHome = ({ name, heroImage }) => {
               />
 
               <div className={styles.ctaAction}>
-                <h3>Do you want to increase your current revenue by 30%?</h3>
+                <h3>Ready to increase your ad revenue by 30%?</h3>
 
-                <button onClick={() => setOpenModal(true)}>Get Started</button>
+                <button onClick={() => setOpenModal(true)}>
+                  Get Free Revenue Estimate
+                </button>
 
                 <GetStartedModal
                   openModal={openModal}
