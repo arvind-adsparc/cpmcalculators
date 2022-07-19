@@ -20,6 +20,7 @@
     @media only screen and (min-width: variables.$tabMedium) {
       flex-direction: row;
       justify-content: space-evenly;
+      align-items: center;
     }
   }
 

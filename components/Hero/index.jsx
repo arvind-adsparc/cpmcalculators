@@ -9,7 +9,7 @@ import {
 } from "./schema";
 import CalculatorForm from "../Forms/calculator";
 import styles from "../../styles/HeroHome.module.scss";
-import GetStartedModal from "../Modal/getStartedModal";
+// import GetStartedModal from "../Modal/getStartedModal";
 
 const DefaultHome = ({ name, heroImage }) => {
   const [openModal, setOpenModal] = useState(false);
