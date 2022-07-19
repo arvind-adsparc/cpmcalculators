@@ -10,6 +10,7 @@ import Seo from "../../components/Seo";
 
 import RecentArticle from "../../components/RecentArticle";
 import { useState, useEffect } from "react";
+import SocialShare from "../../components/SocialShare";
 
 const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
   const [pageURL, setPageURL] = useState("");
@@ -40,6 +41,8 @@ const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
             </div>
           </div>
         </div>
+
+        <SocialShare url={pageURL} />
 
         <RecentArticle />
         <Newsletter />
