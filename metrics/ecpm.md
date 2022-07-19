@@ -14,6 +14,13 @@ What is eCPM? eCPM is an abbreviation that denotes effective cost per mille – 
 
 You also need to pay specific attention to the word ‘effective.’ Here, effective CPM means the revenue earned by the publishers, efficiently and effectively. eCPM is cumulative revenue initiated by publishers per thousand impressions. Therefore, eCPM is calculated using CPM campaigns and CPC, CPL, and other such campaigns running via the publisher’s inventory.
 
+## Table of Contents
+
+- [How to calculate eCPM?](#how-to-calculate-ecpm)
+- [Advantages of eCPM](#advantages-of-ecpm)
+- [What is the crucial difference between CPM and eCPM?](#what-is-the-crucial-difference-between-cpm-and-ecpm)
+- [How to increase eCPM?](#how-to-increase-ecpm)
+
 ## How to calculate eCPM?
 
 ![How to caclculate eCPM ](https://res.cloudinary.com/dqove2qhg/image/upload/v1657098145/CPM%20Calculators/ecpm-formula_ohxtgy.jpg)

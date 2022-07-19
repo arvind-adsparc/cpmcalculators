@@ -15,6 +15,16 @@ According to the IAB & Media Rating Council, the term ad viewability is the perc
 
 Why should publishers care? Simple. To generate more revenue! If your ad space has a high viewability score, it will automatically be more valuable to advertisers. You are improving your authority to charge a better premium price for specific spots.
 
+## Table of Contents
+
+- [Do you know why Ads Lose Viewability?](#do-you-know-why-ads-lose-viewability)
+- [Here’s how you can improve your ad viewability](#here-s-how-you-can-improve-your-ad-viewability)
+- [How to Measure Ad Viewability?](#how-to-measure-ad-viewability)
+- [Viewability Measurement Formula:](#viewability-measurement-formula)
+- [Why AdSparc?](#why-adsparc)
+- [What kind of high viewability ads should you pick?](#what-kind-of-high-viewability-ads-should-you-pick)
+- [What’s Good About AdSuite?](#what-s-good-about-adsuite)
+
 ## Do you know why Ads Lose Viewability?
 
 Ad viewability is a moderately new concept in digital advertising. Nevertheless, it has become a buzzword ever since. There are five main reasons why ads lose their viewability:

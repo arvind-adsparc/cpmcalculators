@@ -12,6 +12,13 @@ EPMV or ‘Earnings per Thousand Visitors’ is also known as session RPM or ses
 
 EPMV is used to gauge the total revenue generated on a site for thousand visitors comprising earnings from multiple ad networks, [SSPs](https://en.wikipedia.org/wiki/Supply-side_platform), and exchanges. Likewise, EPMV is computed for the whole site. It offers a panoramic view of the publisher’s earnings. It is an incredible parameter for publishers to get a complete overview of how their inventory is performing practically.
 
+## Table of Contents
+
+- [How to calculate EPMV?](#how-to-calculate-epmv)
+- [The Apex Advantage of EPMV](#the-apex-advantage-of-epmv)
+- [Why EPMV is the best metric for Revenue and Yield?](#why-epmv-is-the-best-metric-for-revenue-and-yield)
+- [Why is EPMV steadily gaining popularity amongst Publishers?](#why-is-epmv-steadily-gaining-popularity-amongst-publishers)
+
 ## How to calculate EPMV?
 
 ![How to caclculate EPMV ](https://res.cloudinary.com/dqove2qhg/image/upload/v1657098579/CPM%20Calculators/epmv-how-to-calculate_btbkau.jpg)

@@ -10,6 +10,14 @@ cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518110/CPM%
 
 CPM is one of the most significant advertising metrics. CPM means cost per mille, i.e. the cost per thousand impressions. Simply it means the cost of having an ad published, seen a thousand times on a particular website, and is used to inspect and oversee ad performance. Since early online marketing campaigns, CPM has acted as an industry standard that determines web ads’ advertising costs and pricing. CPM calculation is simple – take the total cost paid in CPM campaigns and then multiply the total impressions by the CPM rate and then divide it by one thousand. For example, one million impressions at 1 $ CPM equals $1000 in gross revenue.
 
+## Table of Contents
+
+- [How to calculate CPM?](#how-to-calculate-cpm-)
+- [What is a good CPM?](#what-is-a-good-cpm-)
+- [What are the top factors affecting CPM?](#what-are-the-top-factors-affecting-cpm-)
+- [Benefits of CPM:](#benefits-of-cpm-)
+- [Why is CPM an excellent revenue indicator?](#why-is-cpm-an-excellent-revenue-indicator-)
+
 ## How to calculate CPM?
 
 ![How to caclculate CPM ](https://res.cloudinary.com/dqove2qhg/image/upload/v1657088398/CPM%20Calculators/cpm-formula_mjlbfp.jpg)

@@ -10,6 +10,12 @@ cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518297/CPM%
 
 An ad impression or view-through is when a user or viewer sees an ad. An [ad impression](https://support.google.com/adsense/answer/6157410?hl=en) can happen any time a user or a viewer browses an app or website and an ad is visible. However, the concept of impressions is not to be confused with an engagement. An ad impression can be defined as the total number of times digital ads are being displayed on an individual’s screen within the publisher’s network.
 
+## Table of Contents
+
+- [Ad Reach vs. Ad Impressions](#ad-reach-vs-ad-impressions)
+- [Ad Impressions vs. Ad Clicks](#ad-impressions-vs-ad-clicks)
+- [Why are ad impressions important?](#why-are-ad-impressions-important)
+
 ## Ad Reach vs. Ad Impressions
 
 A reach refers to the total number of individuals who see an ad campaign whereas an impression conveys how many times the ad was shown to individuals. For example, if your ad is shown to 1000 people 3x each, your reach will be 1000, but your impressions will be 3000.

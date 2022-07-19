@@ -10,6 +10,13 @@ cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657518007/CPM%
 
 The [Page RPM](https://support.google.com/adsense/answer/112030?hl=en) metric supports publishers to recognize the actual performance of their ads on a page level. This way, a publisher can identify low-earning pages and strategize how to progress and advance their performance. Page RPM = Revenue / Number of page views x 1,000. Page RPM is an exceptional proportional metric to assess multiple page performance on a specific website. Page RPM showcases a broader picture to the publisher about what’s going on with the pages concerning revenue at any corresponding period, page to page, or more.
 
+## Table of Contents
+
+- [What is RPM?](#what-is-rpm)
+- [What is session RPM?](#what-is-session-rpm)
+- [How to calculate Page RPM?](#how-to-calculate-page-rpm)
+- [How to increase Page RPM?](#how-to-increase-page-rpm)
+
 ## What is RPM?
 
 First, let’s look at the abbreviation ‘RPM,’ a valuable metric that publishers can utilize to recognize their performance and put it under scrutiny – RPM stands for Revenue Per Mille. The RPM or Revenue Per Mille can be defined as the revenue per thousand impressions, where ‘mille’ stands for 1,000. There are two kinds of RPM accessible by publishers:
