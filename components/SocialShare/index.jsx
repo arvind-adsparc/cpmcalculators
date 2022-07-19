@@ -6,23 +6,24 @@ import {
   LinkedinShareButton,
   LinkedinIcon,
 } from "react-share";
+import styles from "../../styles/socialShare.module.scss";
 
 const SocialShare = (url) => {
   return (
-    <div>
-      <div>Share on:</div>
+    <div className={styles.socialContainer}>
+      <div className={styles.title}>Share on:</div>
 
-      <div>
+      <div className={styles.btns}>
         <FacebookShareButton url={url}>
-          <FacebookIcon size={32} round />
+          <FacebookIcon size={42} round />
         </FacebookShareButton>
 
         <TwitterShareButton url={url}>
-          <TwitterIcon size={32} round />
+          <TwitterIcon size={42} round />
         </TwitterShareButton>
 
         <LinkedinShareButton url={url}>
-          <LinkedinIcon size={32} round />
+          <LinkedinIcon size={42} round />
         </LinkedinShareButton>
       </div>
     </div>
