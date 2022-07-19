@@ -42,7 +42,7 @@ const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
           </div>
         </div>
 
-        <SocialShare url={pageURL} />
+        <SocialShare shareURL={pageURL} />
 
         <RecentArticle />
         <Newsletter />
