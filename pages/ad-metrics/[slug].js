@@ -9,12 +9,14 @@ import Newsletter from "../../components/Newsletter";
 import Seo from "../../components/Seo";
 
 import RecentArticle from "../../components/RecentArticle";
+import { useState, useEffect } from "react";
 
-const MetricsPage = ({
-  frontmatter: { title, date, cover_image },
-  slug,
-  content,
-}) => {
+const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
+  const [pageURL, setPageURL] = useState("");
+  useEffect(() => {
+    setPageURL(window.location.href);
+  }, []);
+
   return (
     <>
       <Seo title={`${title} |   CPM Calculators `} description="" />
