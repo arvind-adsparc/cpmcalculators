@@ -8,6 +8,18 @@ src: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517629/CPM%20Calcul
 cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517629/CPM%20Calculators/Frame_3_1_kpcrrv.svg"
 ---
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [How does it work?](#how-does-it-work-)
+- [Benefits of CPC](#benefits-of-cpc)
+  - [Use of Ad Networks](#use-of-ad-networks)
+  - [Greater variety of Ads](#greater-variety-of-ads)
+  - [Instant and Increased Traffic](#instant-and-increased-traffic)
+  - [Increased Keywords](#increased-keywords)
+- [AdSense and AdMob](#adsense-and-admob)
+- [Conclusion](#conclusion)
+
 ## Introduction
 
 Advertising is a prominent part of Digital Marketing. Whether you’re running your website or trying to increase your outreach on a social media platform, you usually require some form of advertising to be successful.
