@@ -6,13 +6,20 @@ import MenuOne from "./Menu/menuOne";
 import MenuTwo from "./Menu/menuTwo";
 import styles from "../../styles/Header.module.scss";
 import { useState } from "react";
+import GetStartedModal from "../Modal/getStartedModal";
 
 const { Panel } = Collapse;
 
 const Header = () => {
   const [toggleNav, setToggleNav] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
+
   const onNavChange = (key) => {
     // console.log(key);
+  };
+
+  const closeModalFn = (value) => {
+    setOpenModal(value);
   };
   return (
     <header className={styles.header}>
@@ -102,7 +109,14 @@ const Header = () => {
             </div>
 
             <div className={styles.btn}>
-              <button onClick={() => {}}>Supercharge your CPMs</button>
+              <button onClick={() => setOpenModal(true)}>
+                Supercharge your CPMs
+              </button>
+
+              <GetStartedModal
+                openModal={openModal}
+                closeModal={closeModalFn}
+              />
             </div>
           </div>
 

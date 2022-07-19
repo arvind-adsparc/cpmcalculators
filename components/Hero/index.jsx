@@ -64,7 +64,7 @@ const DefaultHome = ({ name, heroImage }) => {
                 priority
               />
 
-              <div className={styles.ctaAction}>
+              {/* <div className={styles.ctaAction}>
                 <h3>Ready to increase your ad revenue by 30%?</h3>
 
                 <button onClick={() => setOpenModal(true)}>
@@ -75,7 +75,7 @@ const DefaultHome = ({ name, heroImage }) => {
                   openModal={openModal}
                   closeModal={closeModalFn}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
