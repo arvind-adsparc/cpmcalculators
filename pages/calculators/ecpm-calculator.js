@@ -21,7 +21,7 @@ const eCPMCalculator = () => {
           <AbouteCPM />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."
-            btnText="Get Started"
+            btnText="Get Free Revenue Estimate"
             btnColor="pink"
           />
           <AdMetrics />
