@@ -37,19 +37,19 @@ The cost to the advertiser is not a fixed cost and can vary between clicks. This
 
 ## Benefits of CPC
 
-### Use of Ad Networks
+- ### Use of Ad Networks
 
 Ad Networks are intermediaries who connect advertisers and publishers and help facilitate the supply and demand needs of the online advertising market. Using CPC advertising gives you access to a wide range of Ad Networks, each with its key features and benefits, providing you with ample opportunities to expand your outreach.
 
-### Greater variety of Ads
+- ### Greater variety of Ads
 
 Technological advancements have made it easy to customize ads for different content, sizes, and platforms, enabling advertisers to generate a large variety of ads, each with a specific purpose. Repositories of ads can be made specifically for mobile and desktop users, thereby maximizing the CPC ad outreach.
 
-### Instant and Increased Traffic
+- ### Instant and Increased Traffic
 
 Search Engine Optimization (SEO) strategies to increase organic searches and page rankings take time to generate definitive results. With CPC ads, the results are instant, as every click on an ad represents an increase in traffic to the advertiser’s website.
 
-### Increased Keywords
+- ### Increased Keywords
 
 SEO strategies involve bidding on keywords that relate to your business. This can be a complicated and expensive process, as you only want to use those specific words that explain or compliment your offerings. However, with CPC ads, you have the luxury of including a wide variety of keywords in a large number of ads. Different ads can have different keywords, thereby increasing the number of words you can use to describe or relate to your business.
 
