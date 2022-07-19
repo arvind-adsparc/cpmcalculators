@@ -18,12 +18,12 @@ Why should publishers care? Simple. To generate more revenue! If your ad space h
 ## Table of Contents
 
 - [Do you know why Ads Lose Viewability?](#do-you-know-why-ads-lose-viewability)
-- [Here’s how you can improve your ad viewability](#here-s-how-you-can-improve-your-ad-viewability)
+- [Here’s how you can improve your ad viewability](#heres-how-you-can-improve-your-ad-viewability)
 - [How to Measure Ad Viewability?](#how-to-measure-ad-viewability)
 - [Viewability Measurement Formula:](#viewability-measurement-formula)
 - [Why AdSparc?](#why-adsparc)
 - [What kind of high viewability ads should you pick?](#what-kind-of-high-viewability-ads-should-you-pick)
-- [What’s Good About AdSuite?](#what-s-good-about-adsuite)
+- [What’s Good About AdSuite?](#whats-good-about-adsuite)
 
 ## Do you know why Ads Lose Viewability?
 

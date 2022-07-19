@@ -11,7 +11,7 @@ cover_image: "https://res.cloudinary.com/dqove2qhg/image/upload/v1657517629/CPM%
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [How does it work?](#how-does-it-work-)
+- [How does it work?](#how-does-it-work)
 - [Benefits of CPC](#benefits-of-cpc)
   - [Use of Ad Networks](#use-of-ad-networks)
   - [Greater variety of Ads](#greater-variety-of-ads)

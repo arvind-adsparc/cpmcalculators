@@ -12,11 +12,11 @@ CPM is one of the most significant advertising metrics. CPM means cost per mille
 
 ## Table of Contents
 
-- [How to calculate CPM?](#how-to-calculate-cpm-)
-- [What is a good CPM?](#what-is-a-good-cpm-)
-- [What are the top factors affecting CPM?](#what-are-the-top-factors-affecting-cpm-)
-- [Benefits of CPM:](#benefits-of-cpm-)
-- [Why is CPM an excellent revenue indicator?](#why-is-cpm-an-excellent-revenue-indicator-)
+- [How to calculate CPM?](#how-to-calculate-cpm)
+- [What is a good CPM?](#what-is-a-good-cpm)
+- [What are the top factors affecting CPM?](#what-are-the-top-factors-affecting-cpm)
+- [Benefits of CPM:](#benefits-of-cpm)
+- [Why is CPM an excellent revenue indicator?](#why-is-cpm-an-excellent-revenue-indicator)
 
 ## How to calculate CPM?
 
