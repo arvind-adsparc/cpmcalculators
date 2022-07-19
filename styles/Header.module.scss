@@ -68,8 +68,9 @@
       display: block;
 
       .links {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         font-weight: variables.$medium;
 
         .link {
@@ -77,6 +78,20 @@
           gap: 0.5rem;
           cursor: pointer;
           margin-left: 2rem;
+        }
+
+        .btn {
+          margin-left: 2rem;
+
+          button {
+            background-color: #f64c71;
+            color: #fff;
+            padding: 0.8rem 1.8rem;
+            border-radius: 5px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+          }
         }
       }
     }

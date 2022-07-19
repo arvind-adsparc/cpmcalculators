@@ -100,6 +100,10 @@ const Header = () => {
             <div className={styles.link}>
               <Link href="/blog">Improve Revenue</Link>
             </div>
+
+            <div className={styles.btn}>
+              <button onClick={() => {}}>Supercharge your CPMs</button>
+            </div>
           </div>
 
           <div></div>
