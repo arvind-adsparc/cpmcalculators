@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -15,11 +14,6 @@ const MetricsPage = ({
   frontmatter: { title, cover_image, excerpt },
   content,
 }) => {
-  const [pageURL, setPageURL] = useState("");
-  useEffect(() => {
-    setPageURL(window.location.href);
-  }, []);
-
   return (
     <>
       <Seo
@@ -48,7 +42,7 @@ const MetricsPage = ({
           </div>
         </div>
 
-        <SocialShare shareURL={pageURL} />
+        <SocialShare />
 
         <RecentArticle />
         <Newsletter />
