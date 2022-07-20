@@ -1,13 +1,13 @@
-export const getCPMResult = (impressions, cpm, campaignCost) => {
+export const getCPMResult = (impressions, cpm, grossEarning) => {
   if (impressions === "") {
-    let totalimpressions = (campaignCost / cpm) * 1000;
-    return `On $${campaignCost} Campaign Cost if the cpm is $${cpm}  then the total Impressions would be ${totalimpressions} .`;
+    let totalimpressions = (grossEarning / cpm) * 1000;
+    return `On $${grossEarning} Gross Earning if the CPM is $${cpm}  then the total Impressions would be ${totalimpressions} .`;
   } else if (cpm === "") {
-    let totalcpm = (campaignCost / impressions) * 1000;
-    return `On $${campaignCost} Campaign Cost if the Impressions are ${impressions}  then the total CPM would be $${totalcpm} .`;
-  } else if (campaignCost === "") {
-    let totalcampaigncost = (cpm * impressions) / 1000;
-    return `On ${impressions} Impressions if the CPM is $${cpm} then the Campaign Cost would be $${totalcampaigncost} .`;
+    let totalcpm = (grossEarning / impressions) * 1000;
+    return `On $${grossEarning} Gross Earning if the Impressions are ${impressions}  then the total CPM would be $${totalcpm} .`;
+  } else if (grossEarning === "") {
+    let totalGrossEarning = (cpm * impressions) / 1000;
+    return `On ${impressions} Impressions if the CPM is $${cpm} then the Gross Earning would be $${totalGrossEarning} .`;
   }
 };
 
