@@ -28,11 +28,7 @@ const SocialShare = () => {
           <TwitterIcon size={42} round />
         </TwitterShareButton>
 
-        <LinkedinShareButton
-          onClick={() => console.log(pageURL)}
-          url={pageURL}
-          title="CPM Calculators | Ad Metrics"
-        >
+        <LinkedinShareButton url={pageURL} title="CPM Calculators | Ad Metrics">
           <LinkedinIcon size={42} round />
         </LinkedinShareButton>
       </div>
