@@ -5,9 +5,9 @@ const Seo = ({ title, description, image }) => {
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta itemprop="name" content={title} />
-      <meta itemprop="description" content={description} />
-      <meta itemprop="image" content={image} />
+      <meta itemProp="name" content={title} />
+      <meta itemProp="description" content={description} />
+      <meta itemProp="image" content={image} />
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );
