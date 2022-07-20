@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -7,12 +8,13 @@ import Layout from "../../components/Layout";
 import styles from "../../styles/BlogPage.module.scss";
 import Newsletter from "../../components/Newsletter";
 import Seo from "../../components/Seo";
-
 import RecentArticle from "../../components/RecentArticle";
-import { useState, useEffect } from "react";
 import SocialShare from "../../components/SocialShare";
 
-const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
+const MetricsPage = ({
+  frontmatter: { title, cover_image, excerpt },
+  content,
+}) => {
   const [pageURL, setPageURL] = useState("");
   useEffect(() => {
     setPageURL(window.location.href);
@@ -20,7 +22,11 @@ const MetricsPage = ({ frontmatter: { title, cover_image }, content }) => {
 
   return (
     <>
-      <Seo title={`${title} |   CPM Calculators `} description="" />
+      <Seo
+        title={`${title} |   CPM Calculators `}
+        description={excerpt}
+        image={cover_image}
+      />
 
       <Layout>
         <div className={styles.blogContainer}>

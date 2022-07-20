@@ -12,6 +12,9 @@ export default function Home() {
     <>
       <Seo
         title="CPM Calculators | Home"
+        image={
+          "https://res.cloudinary.com/dqove2qhg/image/upload/v1656426401/CPM%20Calculators/hero-image_ndouct.svg"
+        }
         description="Designed explicitly for programmatic media planners and ad ops teams for their media planning and optimization. Get granular reporting, AI-driven data, partner-specific estimation of programmatic technology, and inventory costs instantly. With us, make your every impression count!"
       />
       <Layout>
