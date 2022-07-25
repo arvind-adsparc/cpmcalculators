@@ -37,8 +37,21 @@ const MetricsPage = ({
                   dangerouslySetInnerHTML={{ __html: marked(content) }}
                 ></div>
               </div>
-              <div className="sidebar"></div>
             </div>
+          </div>
+
+          <div className={styles.sidebar}>
+            <a
+              href="https://adsparc.com/contact-us/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1658731607/CPM%20Calculators/ad_2_cqz7oi.gif"
+                alt=""
+                layout="responsive"
+              />
+            </a>
           </div>
         </div>
 

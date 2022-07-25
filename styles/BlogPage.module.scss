@@ -5,10 +5,16 @@
 
   @media only screen and (min-width: variables.$desktopSmall) {
     padding-bottom: 2rem;
+    display: flex;
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
   }
 
   .group {
-    display: flex;
+    @media only screen and (min-width: variables.$desktopSmall) {
+      display: flex;
+    }
   }
 
   .title {
@@ -82,6 +88,27 @@
     img {
       @media only screen and (min-width: variables.$desktopSmall) {
         width: fit-content;
+      }
+    }
+  }
+
+  .sidebar {
+    display: none;
+
+    @media only screen and (min-width: variables.$desktopSmall) {
+      display: block;
+      width: 35%;
+      margin-left: 2rem;
+
+      margin-top: 2rem;
+
+      img {
+        cursor: pointer;
+        position: sticky;
+        top: 15%;
+        right: 0;
+        width: 100%;
+        height: 35rem;
       }
     }
   }
