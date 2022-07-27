@@ -34,7 +34,7 @@
     width: 100%;
 
     @media only screen and (min-width: variables.$desktopSmall) {
-      // width: 100%;
+      // width: 60%;
       // height: 20%;
     }
   }
@@ -87,7 +87,7 @@
 
     img {
       @media only screen and (min-width: variables.$desktopSmall) {
-        width: fit-content;
+        // width: fit-content;
       }
     }
   }
