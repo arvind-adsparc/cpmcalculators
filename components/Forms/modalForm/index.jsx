@@ -27,10 +27,10 @@ const ModalForm = () => {
 
     try {
       const data = {
-        fullName: "Arvind M",
-        email: "arvind.m@adsparc.com",
-        company: "Adsparc",
-        pageViews: "1 - 5 million",
+        fullName: values.fullname,
+        email: values.email,
+        company: values.companyName,
+        pageViews: values.views,
       };
 
       const headers = {
