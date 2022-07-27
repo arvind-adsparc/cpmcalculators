@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Router from "next/router";
+import axios from "axios";
 import { Form, Input, Select, Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import styles from "../../../styles/modalForm.module.scss";
@@ -21,9 +22,32 @@ const ModalForm = () => {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
-  const onFinish = (errorInfo) => {
-    Router.push("/thank-you");
+  const onFinish = async (values) => {
+    setLoading(true);
+
+    try {
+      const data = {
+        fullName: "Arvind M",
+        email: "arvind.m@adsparc.com",
+        company: "Adsparc",
+        pageViews: "1 - 5 million",
+      };
+
+      const headers = {
+        "Content-Type": "application/json",
+      };
+      await axios.post(`/api/increase-revenue`, data, { headers });
+      setLoading(false);
+      setStatus("success");
+      form.resetFields();
+      Router.push("/thank-you");
+    } catch (err) {
+      setLoading(false);
+      setStatus("error");
+      console.log("err", err);
+    }
   };
+
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
   };
