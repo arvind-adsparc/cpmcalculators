@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 import { Form, Input, Spin } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 
@@ -11,15 +12,37 @@ const antIcon = (
   />
 );
 
+// const API_URL = "https://cpmcalculators.vercel.app";
 const NewsletterForm = () => {
   const [form] = Form.useForm();
 
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
-  const onFinish = (errorInfo) => {};
+  const onFinish = async (values) => {
+    setLoading(true);
+
+    try {
+      const data = {
+        email: values.email,
+        page: "test page 1",
+      };
+
+      const headers = {
+        "Content-Type": "application/json",
+      };
+      await axios.post(`/api/subscribe`, data, { headers });
+      setLoading(false);
+      setStatus("success");
+      form.resetFields();
+    } catch (err) {
+      setLoading(false);
+      setStatus("error");
+      console.log("err", err);
+    }
+  };
   const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
+    // console.log("Failed:", errorInfo);
   };
   return (
     <div>

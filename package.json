@@ -11,6 +11,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.21.3",
+    "axios": "^0.27.2",
     "gray-matter": "^4.0.3",
     "marked": "^4.0.17",
     "mongoose": "^6.4.6",
