@@ -31,7 +31,11 @@ const NewsletterForm = () => {
       const headers = {
         "Content-Type": "application/json",
       };
-      await axios.post(`/api/subscribe`, data, { headers });
+      await axios.post(
+        `https://cpmcalculators.vercel.app/api/subscribe`,
+        data,
+        { headers }
+      );
       setLoading(false);
       setStatus("success");
       form.resetFields();
