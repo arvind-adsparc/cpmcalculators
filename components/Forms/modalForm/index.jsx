@@ -63,6 +63,7 @@ const ModalForm = () => {
         name="modal-form"
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
+        autocomplete="off"
       >
         <div className={styles.group}>
           <Form.Item
