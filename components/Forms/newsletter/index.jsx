@@ -25,7 +25,7 @@ const NewsletterForm = () => {
     try {
       const data = {
         email: values.email,
-        page: "test page 1",
+        page: "NA",
       };
 
       const headers = {
