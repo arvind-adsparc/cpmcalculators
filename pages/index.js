@@ -23,7 +23,8 @@ export default function Home() {
           <About />
           <CTABar
             text="AdSparc’s Result-driven Approach and Cross Channel Monetization Solution empower you with Better User Engagement & Amplified Revenue Generation."
-            btnText="Get Free Revenue Estimate"
+            // btnText="Get Free Revenue Estimate"
+            btnText="Get Started"
             btnColor="pink"
           />
           <AdMetrics />

@@ -93,7 +93,7 @@ const ModalForm = () => {
             hasFeedback
             validateStatus={status}
           >
-            <Input placeholder="Work Email" />
+            <Input placeholder="Email" />
           </Form.Item>
         </div>
 
