@@ -51,7 +51,7 @@ const NewsletterForm = () => {
         name="newsletter-form"
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
-        autocomplete="off"
+        autoComplete="off"
       >
         <Form.Item
           className="input-container"
