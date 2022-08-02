@@ -69,7 +69,7 @@ const CalculatorForm = ({ name, formContent }) => {
   return (
     <div className={styles.formContainer}>
       <h3>{name} Calculator</h3>
-      <p>Complete two fields and we will calculate the third one for you</p>
+      <p>Fill in the two fields, and we will assess the third</p>
 
       {error && <Alert message={error} type="error" />}
 
