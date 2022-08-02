@@ -8,7 +8,7 @@ const Newsletter = () => {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.formContainer}>
-            <h2>Subscribe to our newsletter & Stay Updated.</h2>
+            <h2>Subscribe to the latest AdTech Blogs and Industry Insights.</h2>
             <NewsletterForm />
           </div>
 
