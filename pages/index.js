@@ -31,7 +31,7 @@ export default function Home() {
           <Newsletter />
           <RecentArticle />
           <CTABar
-            text="Ready to get Started?"
+            text="Want to increase your monthly revenue and yield by 30%? AdSparc empowers publishers to maximize their revenue by offering next-generation monetization solutions.  We are an official Google MCM Partner."
             btnText="Supercharge your  CPMs"
             btnColor="pink"
           />
