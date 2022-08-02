@@ -23,7 +23,7 @@ const Input = ({ name, label, type, placeholder, getValuesFn }) => {
         type={type}
         id={name}
         name={name}
-        step=".1"
+        step="any"
         min="0"
         placeholder={placeholder}
       />
