@@ -47,7 +47,7 @@ const MetricsPage = ({
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1658731607/CPM%20Calculators/ad_2_cqz7oi.gif"
+                src="https://res.cloudinary.com/dqove2qhg/image/upload/v1659501675/CPM%20Calculators/cpm_ad_gif_m3necr.gif"
                 alt=""
                 layout="responsive"
               />
